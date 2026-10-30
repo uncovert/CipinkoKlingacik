@@ -1,0 +1,69 @@
+Reference,Value,MPN,Manufacturer,Footprint,DNP,Assembly,Requirement,Datasheet
+R1,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R2,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R3,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R4,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R5,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R6,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R7,1k,RC0805FR-071KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+D2,Green LED,LTST-C170KGKT,Lite-On,CipinkoKlingacik:LED_0805_2012Metric,no,SMT,Green LED; K1 A2; software status only,https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C170KGKT.pdf
+R8,1k,RC0805FR-071KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R9,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R10,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R35,1k,RC0805FR-071KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+F1,250 mA hold,MF-NSMF025X-2,Bourns,CipinkoKlingacik:Fuse_1206_3216Metric,no,SMT,"250 mA hold, 16 V PTC; drop/trip curve require review, NOT precision limiting",https://www.bourns.com/docs/product-datasheets/mf-nsmf.pdf
+C1,10uF,GRM31CR71C106KA12L,Murata,CipinkoKlingacik:C_1206_3216Metric,no,SMT,"10 uF, 16 V, X7R, 10%; check DC bias",https://www.murata.com/en-us/products/capacitor/mlcc
+C2,100nF,GRM21BR71H104KA01L,Murata,CipinkoKlingacik:C_0805_2012Metric,no,SMT,"100 nF, 50 V, X7R, 10%",https://www.murata.com/en-us/products/capacitor/mlcc
+U2,UCC27517DBVR,UCC27517DBVR,Texas Instruments,CipinkoKlingacik:SOT-23-5,no,SMT,4.90-5.25 V measured at VDD before arm,https://www.ti.com/lit/ds/symlink/ucc27517.pdf
+C13,100nF,GRM21BR71H104KA01L,Murata,CipinkoKlingacik:C_0805_2012Metric,no,SMT,"100 nF, 50 V, X7R, 10%",https://www.murata.com/en-us/products/capacitor/mlcc
+C14,1uF,GRM21BR71C105KA01L,Murata,CipinkoKlingacik:C_0805_2012Metric,no,SMT,"1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias",https://www.murata.com/en-us/products/capacitor/mlcc
+R22,100,RC0805FR-07100RL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R23,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R24,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+Q6,2N7002,"2N7002,215",Nexperia,CipinkoKlingacik:SOT-23,no,SMT,G1 S2 D3,https://assets.nexperia.com/documents/data-sheet/2N7002.pdf
+R25,100,RC0805FR-07100RL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R26,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+Q1,AO3400A,AO3400A,Alpha & Omega Semiconductor,CipinkoKlingacik:SOT-23,no,SMT,G1 S2 D3; pulse/thermal qualification required,https://aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf
+R27,2.2,RC0805FR-072R2L,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R28,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+D1,Schottky,BAT54WS-7-F,Diodes Incorporated,CipinkoKlingacik:D_SOD-323,no,SMT,K1 A2; low-current hold-up charging diode,https://www.diodes.com/assets/Datasheets/ds30421.pdf
+R13,1k,RC0805FR-071KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+C9,100uF,EEE-FK1C101P,Panasonic,CipinkoKlingacik:CP_Elec_6.3x5.8,no,SMT,"100 uF 16 V +/-20%, positive pad1; leakage max16 uA; reservoir/hold-up qualification",https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf
+C10,1uF,GRM21BR71C105KA01L,Murata,CipinkoKlingacik:C_0805_2012Metric,no,SMT,"1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias",https://www.murata.com/en-us/products/capacitor/mlcc
+U6,TLV70436DBVR,TLV70436DBVR,Texas Instruments,CipinkoKlingacik:SOT-23-5,no,SMT,3.6 V; pinout differs from AP2112,https://www.ti.com/lit/ds/symlink/tlv704.pdf
+C11,1uF,GRM21BR71C105KA01L,Murata,CipinkoKlingacik:C_0805_2012Metric,no,SMT,"1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias",https://www.murata.com/en-us/products/capacitor/mlcc
+R14,100k,RC0805FR-07100KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+U4,AP2112K-3.3,AP2112K-3.3TRG1,Diodes Incorporated,CipinkoKlingacik:SOT-23-5,no,SMT,3.3 V; verify reservoir startup and stability,https://www.diodes.com/assets/Datasheets/AP2112.pdf
+C3,1uF,GRM21BR71C105KA01L,Murata,CipinkoKlingacik:C_0805_2012Metric,no,SMT,"1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias",https://www.murata.com/en-us/products/capacitor/mlcc
+C4,100uF,EEE-FK1C101P,Panasonic,CipinkoKlingacik:CP_Elec_6.3x5.8,no,SMT,"100 uF 16 V +/-20%, positive pad1; leakage max16 uA; reservoir/hold-up qualification",https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf
+C5,1uF,GRM21BR71C105KA01L,Murata,CipinkoKlingacik:C_0805_2012Metric,no,SMT,"1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias",https://www.murata.com/en-us/products/capacitor/mlcc
+R11,330,RC0805FR-07330RL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+U5,AP2112K-1.8,AP2112K-1.8TRG1,Diodes Incorporated,CipinkoKlingacik:SOT-23-5,no,SMT,"1.8 V; source-only, reservoir/bleeder absorb dip charge",https://www.diodes.com/assets/Datasheets/AP2112.pdf
+C6,1uF,GRM21BR71C105KA01L,Murata,CipinkoKlingacik:C_0805_2012Metric,no,SMT,"1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias",https://www.murata.com/en-us/products/capacitor/mlcc
+C7,100uF,EEE-FK1C101P,Panasonic,CipinkoKlingacik:CP_Elec_6.3x5.8,no,SMT,"100 uF 16 V +/-20%, positive pad1; leakage max16 uA; reservoir/hold-up qualification",https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf
+C8,1uF,GRM21BR71C105KA01L,Murata,CipinkoKlingacik:C_0805_2012Metric,no,SMT,"1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias",https://www.murata.com/en-us/products/capacitor/mlcc
+R12,330,RC0805FR-07330RL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R15,15 1% >=1W,CRCW251215R0FKEGHP,Vishay,CipinkoKlingacik:R_2512_6332Metric,no,SMT,"15 ohm 1%, high-pulse series; qualify >=1 W on actual PCB and derating",https://www.vishay.com/docs/20043/crcwhpe3.pdf
+R16,15 1% >=1W,CRCW251215R0FKEGHP,Vishay,CipinkoKlingacik:R_2512_6332Metric,no,SMT,"15 ohm 1%, high-pulse series; qualify >=1 W on actual PCB and derating",https://www.vishay.com/docs/20043/crcwhpe3.pdf
+U3,NX3L1T3157GMZ,NX3L1T3157GMZ,NXP,CipinkoKlingacik:SOT-886,no,SMT,"XSON6/SOT886; GMZ ordering code, not obsolete ,115/,132",https://www.nxp.com/docs/en/data-sheet/NX3L1T3157.pdf
+R36,100,RC0805FR-07100RL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R37,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+C12,100nF,GRM21BR71H104KA01L,Murata,CipinkoKlingacik:C_0805_2012Metric,no,SMT,"100 nF, 50 V, X7R, 10%",https://www.murata.com/en-us/products/capacitor/mlcc
+Q2,Si2377EDS,Si2377EDS-T1-GE3,Vishay,CipinkoKlingacik:SOT-23,no,SMT,G1 S2 D3; common-source slow disconnect; -1.5 V drive specified,https://www.vishay.com/docs/65905/si2377eds.pdf
+Q3,Si2377EDS,Si2377EDS-T1-GE3,Vishay,CipinkoKlingacik:SOT-23,no,SMT,G1 S2 D3; common-source slow disconnect; -1.5 V drive specified,https://www.vishay.com/docs/65905/si2377eds.pdf
+R17,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+Q4,2N7002,"2N7002,215",Nexperia,CipinkoKlingacik:SOT-23,no,SMT,G1 S2 D3,https://assets.nexperia.com/documents/data-sheet/2N7002.pdf
+R38,100,RC0805FR-07100RL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R18,100,RC0805FR-07100RL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R19,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R39,0,RC1206JR-070RL,Yageo,CipinkoKlingacik:R_1206_3216Metric,no,SMT,Fitted zero-ohm bypass; REMOVE when R20 fitted; not a removable ARM link,https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R21,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+Q5,2N7002,"2N7002,215",Nexperia,CipinkoKlingacik:SOT-23,no,SMT,G1 S2 D3,https://assets.nexperia.com/documents/data-sheet/2N7002.pdf
+R29,100,RC0805FR-07100RL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R30,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+U7,SN74LVC1G17,SN74LVC1G17DBVR,Texas Instruments,CipinkoKlingacik:SOT-23-5,no,SMT,3.3 V trigger input only,https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
+C16,100nF,GRM21BR71H104KA01L,Murata,CipinkoKlingacik:C_0805_2012Metric,no,SMT,"100 nF, 50 V, X7R, 10%",https://www.murata.com/en-us/products/capacitor/mlcc
+R32,1k,RC0805FR-071KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+R33,100k,RC0805FR-07100KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf
+C17,100nF,GRM21BR71H104KA01L,Murata,CipinkoKlingacik:C_0805_2012Metric,no,SMT,"100 nF, 50 V, X7R, 10%",https://www.murata.com/en-us/products/capacitor/mlcc
+R34,10k,RC0805FR-0710KL,Yageo,CipinkoKlingacik:R_0805_2012Metric,no,SMT,"1%, 0.125 W; gate pulse rating requires check",https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf

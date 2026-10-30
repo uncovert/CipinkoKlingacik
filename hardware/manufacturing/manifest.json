@@ -1,0 +1,186 @@
+{
+  "revision": "C3",
+  "purpose": "Engineering-prototype quote/review data; NOT production approval",
+  "fabrication_release": false,
+  "hardware_qualification": "NOT PERFORMED",
+  "board_sha256": "57e30dfc570bdc0e43d36096923e3169187b0db4840fec9d70367bdbd46c96a8",
+  "schematic_sha256": "9dee4fb6eecf24aaa014c17a3a561823b7744e7de247a1c9638019c7bc7dacff",
+  "project_sha256": "ec8ad623e6599c5c1f016df9f6e8a333e245cb6c90a9bac091475ee1c37d2308",
+  "drc_sha256": "85cb2bd890c0cad8a7266dd7da868758207a57f3eb8d19a782b268ddd15a9470",
+  "baseline_smt_refs": [
+    "C1",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C16",
+    "C17",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "D1",
+    "D2",
+    "F1",
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "Q5",
+    "Q6",
+    "R1",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "R17",
+    "R18",
+    "R19",
+    "R2",
+    "R21",
+    "R22",
+    "R23",
+    "R24",
+    "R25",
+    "R26",
+    "R27",
+    "R28",
+    "R29",
+    "R3",
+    "R30",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R38",
+    "R39",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "R9",
+    "U2",
+    "U3",
+    "U4",
+    "U5",
+    "U6",
+    "U7"
+  ],
+  "baseline_hand_fit_refs": [
+    "J1",
+    "J2",
+    "J3",
+    "J4",
+    "J5",
+    "JP2",
+    "U1"
+  ],
+  "dnp_refs": [
+    "C18",
+    "JP3",
+    "JP4",
+    "JP5",
+    "R20",
+    "R31",
+    "R40",
+    "R41",
+    "U8"
+  ],
+  "artifacts": {
+    "README.md": {
+      "sha256": "a734058a6a324e0f6cb9938eaad05776ba80b3a5ac2e5c4f8cfde3f820aac14c",
+      "bytes": 3710
+    },
+    "assembly/accessories-candidates.csv": {
+      "sha256": "df0b4fd46804ff295e04f3aef2b8674808334581c215cfa4f631426bd7463821",
+      "bytes": 773
+    },
+    "assembly/baseline-hand-fit.csv": {
+      "sha256": "f0b46330c2944eea1f52b9949e74026f2bb85b414bfebf9288f4e3ad9ee3f868",
+      "bytes": 1635
+    },
+    "assembly/baseline-smt-bom.csv": {
+      "sha256": "60c79158cff46acc5649b717499ec58dd399e6f05551835c3a2813f6c4cde744",
+      "bytes": 13739
+    },
+    "assembly/baseline-smt-pos.csv": {
+      "sha256": "3a7784e052260628a27bf8395fbcc09d021382d373af91348a4c25d15c7ab0c4",
+      "bytes": 4504
+    },
+    "cipinkoklingacik-C3-bare-pcb.zip": {
+      "sha256": "96c5738fbba6e73f5bab6cbd8c9c10e723c1f200dd8599f07afbf47f0eb69042",
+      "bytes": 159164
+    },
+    "drill-report.txt": {
+      "sha256": "7aec86b0bfd913d754cb62673ec303438d8b8675ab5bbd2a2e2d80678a9190e1",
+      "bytes": 714
+    },
+    "gerbers/cipinkoklingacik-B_Cu.gbl": {
+      "sha256": "9cab2407cbca8f6e3a9600cb49783a84966f202e069bb61e4a94f70af1fb7605",
+      "bytes": 125353
+    },
+    "gerbers/cipinkoklingacik-B_Mask.gbs": {
+      "sha256": "5dd3aff05bbd192d008b190d5c83863a6d3dbf72774c212d8d7728d9d9133afd",
+      "bytes": 4682
+    },
+    "gerbers/cipinkoklingacik-B_Silkscreen.gbo": {
+      "sha256": "19152d428b01c31fa489347c52d393b422fdbb5c1797ffdc42d92ca69050866e",
+      "bytes": 460
+    },
+    "gerbers/cipinkoklingacik-Edge_Cuts.gm1": {
+      "sha256": "1c083cee2f99b616c8422f4bb8531bd9896de4c1fc0a86ec258ebc9ffed25e8c",
+      "bytes": 625
+    },
+    "gerbers/cipinkoklingacik-F_Cu.gtl": {
+      "sha256": "2beba373dd20aef2113fa890a2eb4fbd5b8c05af31ce14fb6f6051fd57c9a66d",
+      "bytes": 308243
+    },
+    "gerbers/cipinkoklingacik-F_Mask.gts": {
+      "sha256": "b4ed62c8623c444c9758cc99254820cf8d4e752b90b1d29de144bf3cb3cf641d",
+      "bytes": 13352
+    },
+    "gerbers/cipinkoklingacik-F_Silkscreen.gto": {
+      "sha256": "82ba71633ef53a22b1aa8d79023f2d622cef8c58d9e8cc954121c541db3eae42",
+      "bytes": 84118
+    },
+    "gerbers/cipinkoklingacik-NPTH-drl_map.pdf": {
+      "sha256": "1b59152bc067f8117606e53518748ba2a0a2a93bc35d9766b7d0f78383800efd",
+      "bytes": 12460
+    },
+    "gerbers/cipinkoklingacik-NPTH.drl": {
+      "sha256": "e5a55e1928817ded9a8c0b2e7dc0a32dd0421fa59d1b7a3f7e72a48ce7f58dca",
+      "bytes": 372
+    },
+    "gerbers/cipinkoklingacik-PTH-drl_map.pdf": {
+      "sha256": "b6ab8904d3eab6045b4e0c2cb54d8b4e0807b8a17e5ceadc8954bc0a67018a3f",
+      "bytes": 19950
+    },
+    "gerbers/cipinkoklingacik-PTH.drl": {
+      "sha256": "d0246d04d2eeba17a761b9817dfce49a1b764cf24403563525071cfbf964232a",
+      "bytes": 3111
+    },
+    "gerbers/cipinkoklingacik-job.gbrjob": {
+      "sha256": "9e14af03a135e37857d94b1fb21f27054ea0321aa221b0c50d6f3c24e00f84cd",
+      "bytes": 2501
+    },
+    "stencil/cipinkoklingacik-F_Paste.gtp": {
+      "sha256": "49a9d54805ad12b48d5d234efc61851cc8f43a4fdea3ad077de004adca0a9d13",
+      "bytes": 8007
+    },
+    "stencil/cipinkoklingacik-job.gbrjob": {
+      "sha256": "7ce5db18cf017b2606f5b30cbcfcce5b28da32b1dfc6875355a5368339357481",
+      "bytes": 1723
+    }
+  }
+}

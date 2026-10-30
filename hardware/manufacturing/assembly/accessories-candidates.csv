@@ -1,0 +1,7 @@
+Purpose,MPN,Manufacturer,Qty,Fit_policy,Approval
+Pico module headers,TSW-120-07-G-S,Samtec,2,Hand-fit to SC1631,Mating/height approval pending
+Carrier Pico sockets,SSQ-120-03-G-S,Samtec,2,Hand-fit at U1,Mating/height approval pending
+ARM shorting cap,SNT-100-BK-G,Samtec,1,SUPPLY LOOSE - JP2 SHIPS OPEN,Purchasing approval pending
+Optional UART link caps,SNT-100-BK-G,Samtec,3,"OPTIONAL UART KIT ONLY - change all JP3-JP5 together, power off",Not baseline; purchasing approval pending
+M2.5 screws,USER-SUPPLIED/TBD,TBD,4,Length/head clearance to suit approved standoff stack,Mechanical approval pending; not an orderable MPN
+M2.5 standoffs,USER-SUPPLIED/TBD,TBD,4,Height/material to suit socket/USB/bench clearances,Mechanical approval pending; not an orderable MPN

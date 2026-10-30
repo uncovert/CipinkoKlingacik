@@ -1,0 +1,10192 @@
+(export
+	(version "E")
+	(design
+		(source "hardware/cipinkoklingacik.kicad_sch")
+		(date "2026-10-30T12:03:55")
+		(tool "Eeschema 10.0.7")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title "ČipinkoKlingáčik C3 - engineering prototype")
+				(company "ČipinkoKlingáčik contributors")
+				(rev "C3")
+				(date "2026-10-30")
+				(source "cipinkoklingacik.kicad_sch")
+				(comment
+					(number "1")
+					(value "Engineering prototype - sourcing/assembly approval and hardware qualification pending")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C1")
+			(value "10uF")
+			(footprint "CipinkoKlingacik:C_1206_3216Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM31CR71C106KA12L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "10 uF, 16 V, X7R, 10%; check DC bias")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_1206_3216Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM31CR71C106KA12L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "10 uF, 16 V, X7R, 10%; check DC bias")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "97dc2dbe-dc50-567c-b06b-7b5a04a8a934")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C2")
+			(value "100nF")
+			(footprint "CipinkoKlingacik:C_0805_2012Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71H104KA01L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "100 nF, 50 V, X7R, 10%")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71H104KA01L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "100 nF, 50 V, X7R, 10%")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4469a783-3490-59c6-851f-3399d613f775")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C3")
+			(value "1uF")
+			(footprint "CipinkoKlingacik:C_0805_2012Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71C105KA01L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71C105KA01L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8580a6cd-82b2-5c83-ae8d-575807915175")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C4")
+			(value "100uF")
+			(footprint "CipinkoKlingacik:CP_Elec_6.3x5.8")
+			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf")
+			(fields
+				(field
+					(name "MPN") "EEE-FK1C101P")
+				(field
+					(name "Manufacturer") "Panasonic")
+				(field
+					(name "Requirement") "100 uF 16 V +/-20%, positive pad1; leakage max16 uA; reservoir/hold-up qualification")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:CP_Elec_6.3x5.8")
+				(field
+					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "CP")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "EEE-FK1C101P")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Panasonic")
+			)
+			(property
+				(name "Requirement")
+				(value "100 uF 16 V +/-20%, positive pad1; leakage max16 uA; reservoir/hold-up qualification")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a4453696-673e-5b29-9539-720fe0ca5336")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "1uF")
+			(footprint "CipinkoKlingacik:C_0805_2012Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71C105KA01L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71C105KA01L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1e10e3d4-de4b-58bf-836a-167cfee097c6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "1uF")
+			(footprint "CipinkoKlingacik:C_0805_2012Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71C105KA01L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71C105KA01L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9e9f1779-8cd8-5882-8bd4-8b4bc51f4a41")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C7")
+			(value "100uF")
+			(footprint "CipinkoKlingacik:CP_Elec_6.3x5.8")
+			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf")
+			(fields
+				(field
+					(name "MPN") "EEE-FK1C101P")
+				(field
+					(name "Manufacturer") "Panasonic")
+				(field
+					(name "Requirement") "100 uF 16 V +/-20%, positive pad1; leakage max16 uA; reservoir/hold-up qualification")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:CP_Elec_6.3x5.8")
+				(field
+					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "CP")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "EEE-FK1C101P")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Panasonic")
+			)
+			(property
+				(name "Requirement")
+				(value "100 uF 16 V +/-20%, positive pad1; leakage max16 uA; reservoir/hold-up qualification")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c2dd817a-b02a-5931-8921-1188cc42d35e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C8")
+			(value "1uF")
+			(footprint "CipinkoKlingacik:C_0805_2012Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71C105KA01L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71C105KA01L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f706ae93-f990-5499-a786-d115b69be0a0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C9")
+			(value "100uF")
+			(footprint "CipinkoKlingacik:CP_Elec_6.3x5.8")
+			(datasheet "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf")
+			(fields
+				(field
+					(name "MPN") "EEE-FK1C101P")
+				(field
+					(name "Manufacturer") "Panasonic")
+				(field
+					(name "Requirement") "100 uF 16 V +/-20%, positive pad1; leakage max16 uA; reservoir/hold-up qualification")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:CP_Elec_6.3x5.8")
+				(field
+					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "CP")
+				(description "Polarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "EEE-FK1C101P")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Panasonic")
+			)
+			(property
+				(name "Requirement")
+				(value "100 uF 16 V +/-20%, positive pad1; leakage max16 uA; reservoir/hold-up qualification")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "CP_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "740a1ebb-fd59-5669-b710-78cc5a33db55")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "1uF")
+			(footprint "CipinkoKlingacik:C_0805_2012Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71C105KA01L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71C105KA01L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e23c5017-25c2-5982-9f86-961355ea25bb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "1uF")
+			(footprint "CipinkoKlingacik:C_0805_2012Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71C105KA01L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71C105KA01L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f98c598b-88b5-59a8-a670-57af8b889565")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "100nF")
+			(footprint "CipinkoKlingacik:C_0805_2012Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71H104KA01L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "100 nF, 50 V, X7R, 10%")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71H104KA01L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "100 nF, 50 V, X7R, 10%")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "31d3611e-2f5a-58ad-8813-0c00e33c7e32")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C13")
+			(value "100nF")
+			(footprint "CipinkoKlingacik:C_0805_2012Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71H104KA01L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "100 nF, 50 V, X7R, 10%")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71H104KA01L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "100 nF, 50 V, X7R, 10%")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "da2eaa8b-6af0-587c-a80a-f55ff22e2430")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C14")
+			(value "1uF")
+			(footprint "CipinkoKlingacik:C_0805_2012Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71C105KA01L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71C105KA01L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "1 uF, 16 V, X7R, 10%; verify >=0.47 uF at bias")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1982fcf2-0926-5b9b-aa7f-10783be3d895")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C16")
+			(value "100nF")
+			(footprint "CipinkoKlingacik:C_0805_2012Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71H104KA01L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "100 nF, 50 V, X7R, 10%")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71H104KA01L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "100 nF, 50 V, X7R, 10%")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "69ab1362-8d28-55ed-bbfc-42fd781b7d5e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C17")
+			(value "100nF")
+			(footprint "CipinkoKlingacik:C_0805_2012Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71H104KA01L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "100 nF, 50 V, X7R, 10%")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71H104KA01L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "100 nF, 50 V, X7R, 10%")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7178f27f-107c-5464-b004-4ecb1a052658")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C18")
+			(value "100nF")
+			(footprint "CipinkoKlingacik:C_0805_2012Metric")
+			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(fields
+				(field
+					(name "MPN") "GRM21BR71H104KA01L")
+				(field
+					(name "Manufacturer") "Murata")
+				(field
+					(name "Requirement") "100 nF, 50 V, X7R, 10%")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Note") "DNP optional UART bypass")
+				(field
+					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR71H104KA01L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata")
+			)
+			(property
+				(name "Requirement")
+				(value "100 nF, 50 V, X7R, 10%")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Note")
+				(value "DNP optional UART bypass")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "27628506-a8fa-5aec-a3a3-82ee68bd7ade")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D1")
+			(value "Schottky")
+			(footprint "CipinkoKlingacik:D_SOD-323")
+			(datasheet "https://www.diodes.com/assets/Datasheets/ds30421.pdf")
+			(fields
+				(field
+					(name "MPN") "BAT54WS-7-F")
+				(field
+					(name "Manufacturer") "Diodes Incorporated")
+				(field
+					(name "Requirement") "K1 A2; low-current hold-up charging diode")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:D_SOD-323")
+				(field
+					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/ds30421.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "D")
+				(description "Schottky diode")
+			)
+			(property
+				(name "MPN")
+				(value "BAT54WS-7-F")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Diodes Incorporated")
+			)
+			(property
+				(name "Requirement")
+				(value "K1 A2; low-current hold-up charging diode")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "diode Schottky")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "TO-???* *_Diode_* *SingleDiode* D_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a40510ba-c806-5fb4-820c-61b4c6a0ec74")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D2")
+			(value "Green LED")
+			(footprint "CipinkoKlingacik:LED_0805_2012Metric")
+			(datasheet "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C170KGKT.pdf")
+			(fields
+				(field
+					(name "MPN") "LTST-C170KGKT")
+				(field
+					(name "Manufacturer") "Lite-On")
+				(field
+					(name "Requirement") "Green LED; K1 A2; software status only")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:LED_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C170KGKT.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "MPN")
+				(value "LTST-C170KGKT")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Lite-On")
+			)
+			(property
+				(name "Requirement")
+				(value "Green LED; K1 A2; software status only")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b7addac7-3661-5587-80b2-714cfff034b6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "F1")
+			(value "250 mA hold")
+			(footprint "CipinkoKlingacik:Fuse_1206_3216Metric")
+			(datasheet "https://www.bourns.com/docs/product-datasheets/mf-nsmf.pdf")
+			(fields
+				(field
+					(name "MPN") "MF-NSMF025X-2")
+				(field
+					(name "Manufacturer") "Bourns")
+				(field
+					(name "Requirement") "250 mA hold, 16 V PTC; drop/trip curve require review, NOT precision limiting")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:Fuse_1206_3216Metric")
+				(field
+					(name "Datasheet") "https://www.bourns.com/docs/product-datasheets/mf-nsmf.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "PTC")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "MF-NSMF025X-2")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Bourns")
+			)
+			(property
+				(name "Requirement")
+				(value "250 mA hold, 16 V PTC; drop/trip curve require review, NOT precision limiting")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ffdfd906-a0f8-5750-ad2f-14746ebd0ac2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "GLITCH/GND")
+			(footprint "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+			(datasheet "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+			(fields
+				(field
+					(name "MPN") "TSW-102-07-G-S")
+				(field
+					(name "Manufacturer") "Samtec")
+				(field
+					(name "Requirement") "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+				(field
+					(name "Assembly") "THT/hand-fit")
+				(field
+					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "CONN2")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TSW-102-07-G-S")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samtec")
+			)
+			(property
+				(name "Requirement")
+				(value "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+			)
+			(property
+				(name "Assembly")
+				(value "THT/hand-fit")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "17cac20c-8548-54ee-ba1d-cce16518b1f6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J2")
+			(value "TARGET/GND")
+			(footprint "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+			(datasheet "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+			(fields
+				(field
+					(name "MPN") "TSW-102-07-G-S")
+				(field
+					(name "Manufacturer") "Samtec")
+				(field
+					(name "Requirement") "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+				(field
+					(name "Assembly") "THT/hand-fit")
+				(field
+					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "CONN2")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TSW-102-07-G-S")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samtec")
+			)
+			(property
+				(name "Requirement")
+				(value "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+			)
+			(property
+				(name "Assembly")
+				(value "THT/hand-fit")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fd61d4f9-528a-57cd-98a7-284198e3c083")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J3")
+			(value "RESET/GND")
+			(footprint "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+			(datasheet "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+			(fields
+				(field
+					(name "MPN") "TSW-102-07-G-S")
+				(field
+					(name "Manufacturer") "Samtec")
+				(field
+					(name "Requirement") "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+				(field
+					(name "Assembly") "THT/hand-fit")
+				(field
+					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "CONN2")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TSW-102-07-G-S")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samtec")
+			)
+			(property
+				(name "Requirement")
+				(value "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+			)
+			(property
+				(name "Assembly")
+				(value "THT/hand-fit")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d747b6cb-d412-5afb-9776-69d54d52f354")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J4")
+			(value "TRIGGER/GND")
+			(footprint "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+			(datasheet "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+			(fields
+				(field
+					(name "MPN") "TSW-102-07-G-S")
+				(field
+					(name "Manufacturer") "Samtec")
+				(field
+					(name "Requirement") "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+				(field
+					(name "Assembly") "THT/hand-fit")
+				(field
+					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "CONN2")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TSW-102-07-G-S")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samtec")
+			)
+			(property
+				(name "Requirement")
+				(value "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+			)
+			(property
+				(name "Assembly")
+				(value "THT/hand-fit")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "851be2d8-9ff3-5ce5-ac9f-73bee16a55cb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J5")
+			(value "UART")
+			(footprint "CipinkoKlingacik:PinHeader_1x03_P2.54mm_Vertical")
+			(datasheet "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+			(fields
+				(field
+					(name "MPN") "TSW-103-07-G-S")
+				(field
+					(name "Manufacturer") "Samtec")
+				(field
+					(name "Requirement") "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+				(field
+					(name "Assembly") "THT/hand-fit")
+				(field
+					(name "Footprint") "CipinkoKlingacik:PinHeader_1x03_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "CONN3")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TSW-103-07-G-S")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samtec")
+			)
+			(property
+				(name "Requirement")
+				(value "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+			)
+			(property
+				(name "Assembly")
+				(value "THT/hand-fit")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b81e8c48-c127-5d31-a577-e6a529807024")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP2")
+			(value "ARM link")
+			(footprint "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+			(datasheet "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+			(fields
+				(field
+					(name "MPN") "TSW-102-07-G-S")
+				(field
+					(name "Manufacturer") "Samtec")
+				(field
+					(name "Requirement") "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+				(field
+					(name "Assembly") "THT/hand-fit")
+				(field
+					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "JP2")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TSW-102-07-G-S")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samtec")
+			)
+			(property
+				(name "Requirement")
+				(value "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+			)
+			(property
+				(name "Assembly")
+				(value "THT/hand-fit")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e844b60e-9890-5988-a99e-41681e7931aa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP3")
+			(value "VCCB link")
+			(footprint "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+			(datasheet "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+			(fields
+				(field
+					(name "MPN") "TSW-102-07-G-S")
+				(field
+					(name "Manufacturer") "Samtec")
+				(field
+					(name "Requirement") "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+				(field
+					(name "Assembly") "THT/hand-fit")
+				(field
+					(name "Note") "DNP optional")
+				(field
+					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "JP2")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TSW-102-07-G-S")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samtec")
+			)
+			(property
+				(name "Requirement")
+				(value "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+			)
+			(property
+				(name "Assembly")
+				(value "THT/hand-fit")
+			)
+			(property
+				(name "Note")
+				(value "DNP optional")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "634d5124-e633-553b-8890-ebefff1cb24c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP4")
+			(value "TX link")
+			(footprint "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+			(datasheet "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+			(fields
+				(field
+					(name "MPN") "TSW-102-07-G-S")
+				(field
+					(name "Manufacturer") "Samtec")
+				(field
+					(name "Requirement") "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+				(field
+					(name "Assembly") "THT/hand-fit")
+				(field
+					(name "Note") "DNP optional")
+				(field
+					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "JP2")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TSW-102-07-G-S")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samtec")
+			)
+			(property
+				(name "Requirement")
+				(value "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+			)
+			(property
+				(name "Assembly")
+				(value "THT/hand-fit")
+			)
+			(property
+				(name "Note")
+				(value "DNP optional")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f9e2c8b0-eeb7-5b2f-9259-8f85643128b4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "JP5")
+			(value "RX link")
+			(footprint "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+			(datasheet "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+			(fields
+				(field
+					(name "MPN") "TSW-102-07-G-S")
+				(field
+					(name "Manufacturer") "Samtec")
+				(field
+					(name "Requirement") "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+				(field
+					(name "Assembly") "THT/hand-fit")
+				(field
+					(name "Note") "DNP optional")
+				(field
+					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
+				(field
+					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "JP2")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TSW-102-07-G-S")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Samtec")
+			)
+			(property
+				(name "Requirement")
+				(value "2.54 mm header; pin1 marked; hand-fit; removable shunts separate")
+			)
+			(property
+				(name "Assembly")
+				(value "THT/hand-fit")
+			)
+			(property
+				(name "Note")
+				(value "DNP optional")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7c4b1d33-39c1-5f94-a9f1-72209c126bb2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "AO3400A")
+			(footprint "CipinkoKlingacik:SOT-23")
+			(datasheet "https://aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf")
+			(fields
+				(field
+					(name "MPN") "AO3400A")
+				(field
+					(name "Manufacturer") "Alpha & Omega Semiconductor")
+				(field
+					(name "Requirement") "G1 S2 D3; pulse/thermal qualification required")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:SOT-23")
+				(field
+					(name "Datasheet") "https://aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "NMOS")
+				(description "N-MOSFET transistor, gate/source/drain")
+			)
+			(property
+				(name "MPN")
+				(value "AO3400A")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Alpha & Omega Semiconductor")
+			)
+			(property
+				(name "Requirement")
+				(value "G1 S2 D3; pulse/thermal qualification required")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "transistor NMOS N-MOS N-MOSFET")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "76c3d3ff-26c7-5379-b39f-4d20be83efb0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q2")
+			(value "Si2377EDS")
+			(footprint "CipinkoKlingacik:SOT-23")
+			(datasheet "https://www.vishay.com/docs/65905/si2377eds.pdf")
+			(fields
+				(field
+					(name "MPN") "Si2377EDS-T1-GE3")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Requirement") "G1 S2 D3; common-source slow disconnect; -1.5 V drive specified")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:SOT-23")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/65905/si2377eds.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "PMOS")
+				(description "P-MOSFET transistor, gate/source/drain")
+			)
+			(property
+				(name "MPN")
+				(value "Si2377EDS-T1-GE3")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Requirement")
+				(value "G1 S2 D3; common-source slow disconnect; -1.5 V drive specified")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "transistor PMOS P-MOS P-MOSFET")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "96b43a25-ea79-5598-8921-81b3dc335ba0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q3")
+			(value "Si2377EDS")
+			(footprint "CipinkoKlingacik:SOT-23")
+			(datasheet "https://www.vishay.com/docs/65905/si2377eds.pdf")
+			(fields
+				(field
+					(name "MPN") "Si2377EDS-T1-GE3")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Requirement") "G1 S2 D3; common-source slow disconnect; -1.5 V drive specified")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:SOT-23")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/65905/si2377eds.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "PMOS")
+				(description "P-MOSFET transistor, gate/source/drain")
+			)
+			(property
+				(name "MPN")
+				(value "Si2377EDS-T1-GE3")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Requirement")
+				(value "G1 S2 D3; common-source slow disconnect; -1.5 V drive specified")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "transistor PMOS P-MOS P-MOSFET")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "36e77108-ed24-5341-abb7-b0985ab418bc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q4")
+			(value "2N7002")
+			(footprint "CipinkoKlingacik:SOT-23")
+			(datasheet "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf")
+			(fields
+				(field
+					(name "MPN") "2N7002,215")
+				(field
+					(name "Manufacturer") "Nexperia")
+				(field
+					(name "Requirement") "G1 S2 D3")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:SOT-23")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "NMOS")
+				(description "N-MOSFET transistor, gate/source/drain")
+			)
+			(property
+				(name "MPN")
+				(value "2N7002,215")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Nexperia")
+			)
+			(property
+				(name "Requirement")
+				(value "G1 S2 D3")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "transistor NMOS N-MOS N-MOSFET")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2cd6163d-4c84-53bc-9134-a2a45d2cea70")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q5")
+			(value "2N7002")
+			(footprint "CipinkoKlingacik:SOT-23")
+			(datasheet "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf")
+			(fields
+				(field
+					(name "MPN") "2N7002,215")
+				(field
+					(name "Manufacturer") "Nexperia")
+				(field
+					(name "Requirement") "G1 S2 D3")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:SOT-23")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "NMOS")
+				(description "N-MOSFET transistor, gate/source/drain")
+			)
+			(property
+				(name "MPN")
+				(value "2N7002,215")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Nexperia")
+			)
+			(property
+				(name "Requirement")
+				(value "G1 S2 D3")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "transistor NMOS N-MOS N-MOSFET")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b4242077-4585-5949-8748-0a8d0a761af7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q6")
+			(value "2N7002")
+			(footprint "CipinkoKlingacik:SOT-23")
+			(datasheet "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf")
+			(fields
+				(field
+					(name "MPN") "2N7002,215")
+				(field
+					(name "Manufacturer") "Nexperia")
+				(field
+					(name "Requirement") "G1 S2 D3")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:SOT-23")
+				(field
+					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "NMOS")
+				(description "N-MOSFET transistor, gate/source/drain")
+			)
+			(property
+				(name "MPN")
+				(value "2N7002,215")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Nexperia")
+			)
+			(property
+				(name "Requirement")
+				(value "G1 S2 D3")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "transistor NMOS N-MOS N-MOSFET")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "95d8e33c-8016-5208-9aa5-8c89c7a1d5f1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4afa37c0-f334-5a7a-8f08-27844a26f905")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R2")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0b61edc0-fa91-5bdf-b5b5-7e61906c7cf0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1fa2b4bd-192c-535f-850e-5d4697d31096")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R4")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "be7e273f-c19e-52e4-9543-87ad3f4735b4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6a475f57-ab02-5999-9414-f1598ca88a86")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "893572ad-611b-5947-abb6-168ce5b666bc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R7")
+			(value "1k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-071KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-071KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4ed1f411-bde9-5d02-bf7c-928540ee620e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "1k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-071KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-071KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "280b44fa-38b2-5277-a700-6639ab4f0f1b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9b0a67c8-4927-5704-8e07-4fe121f5542f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "afb3bbf0-7935-5ca3-94fa-2be85f08f056")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "330")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07330RL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07330RL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5d16d664-d13f-55a1-8619-070db612bb24")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "330")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07330RL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07330RL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9c2fd587-251c-5800-9c3d-240d51f6c32e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "1k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-071KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-071KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "162bc51c-5ff0-530e-b5bc-e1493355b398")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "100k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07100KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07100KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d0ab9957-5c90-535b-9846-daf675f49957")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "15 1% >=1W")
+			(footprint "CipinkoKlingacik:R_2512_6332Metric")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(fields
+				(field
+					(name "MPN") "CRCW251215R0FKEGHP")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Requirement") "15 ohm 1%, high-pulse series; qualify >=1 W on actual PCB and derating")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_2512_6332Metric")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW251215R0FKEGHP")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Requirement")
+				(value "15 ohm 1%, high-pulse series; qualify >=1 W on actual PCB and derating")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b7853993-c32f-5805-b780-ae7f7def3589")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "15 1% >=1W")
+			(footprint "CipinkoKlingacik:R_2512_6332Metric")
+			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(fields
+				(field
+					(name "MPN") "CRCW251215R0FKEGHP")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Requirement") "15 ohm 1%, high-pulse series; qualify >=1 W on actual PCB and derating")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_2512_6332Metric")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW251215R0FKEGHP")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Requirement")
+				(value "15 ohm 1%, high-pulse series; qualify >=1 W on actual PCB and derating")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2a339bf1-97a1-5753-8aea-857eeacb57ff")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R17")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8c277a4d-9336-50f5-9c55-952d4dc5040f")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R18")
+			(value "100")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07100RL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07100RL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ca494cea-74b1-59f8-b7f1-2b5893b67524")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R19")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ef19ad6c-08c8-508e-ba20-d3a2101d7aca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R20")
+			(value "0.1 ohm Kelvin")
+			(footprint "CipinkoKlingacik:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm")
+			(datasheet "https://www.vishay.com/docs/30108/wsk2512.pdf")
+			(fields
+				(field
+					(name "MPN") "WSK2512R1000FEA")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Requirement") "DNP 0.1 ohm 1% 1 W four-terminal shunt; force1/4, sense2/3; REMOVE R39 when fitted")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Note") "DNP measurement option; REMOVE R39; differential probing ONLY")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm")
+				(field
+					(name "Datasheet") "https://www.vishay.com/docs/30108/wsk2512.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "SHUNT4")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "WSK2512R1000FEA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Requirement")
+				(value "DNP 0.1 ohm 1% 1 W four-terminal shunt; force1/4, sense2/3; REMOVE R39 when fitted")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Note")
+				(value "DNP measurement option; REMOVE R39; differential probing ONLY")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f3e59d96-6f11-545b-85d1-f3c7e2d5877e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R21")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ec61f58f-ed46-5169-9203-205c1b39a4a5")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R22")
+			(value "100")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07100RL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07100RL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6b7b5c91-9b54-560b-b06e-64bb25cbcc20")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R23")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "15aaa2e6-afac-5be4-b4fe-6247d7eb3d35")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R24")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "de357279-705d-5559-bc26-5e5760b0f5e1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R25")
+			(value "100")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07100RL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07100RL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "bbd4fca0-ff74-53e8-b2a3-2482b44008e0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R26")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ad77a92f-2d87-5fb2-8e8d-5b97903ffdf7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R27")
+			(value "2.2")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-072R2L")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-072R2L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "052efaf7-593d-554e-b681-1a74d3c8dbf7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R28")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d21f1922-a15e-5dbf-b114-05da96499351")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R29")
+			(value "100")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07100RL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07100RL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4ade8c6d-f36b-5163-9deb-89adcd4ec25e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R30")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2c5d22ab-4532-5eb9-adfa-77d8efc77327")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R31")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Note") "DNP for external target supply")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Note")
+				(value "DNP for external target supply")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "4634c9ee-2f2b-517c-9a10-3eae4e790fcf")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R32")
+			(value "1k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-071KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-071KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3ef953e3-2eb1-5f99-a688-56c102409bd8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R33")
+			(value "100k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07100KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07100KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "86cbc6f9-b7ff-5f3a-81b4-c70a28b617e7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R34")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "967c444e-533c-5d76-b8e7-76bf26f3f530")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R35")
+			(value "1k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-071KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-071KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "947b08dc-d9cd-5cd7-88d2-7848884c7f53")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R36")
+			(value "100")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07100RL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07100RL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ca542b97-de94-5cdf-9aa8-c9ff02c49285")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R37")
+			(value "10k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-0710KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-0710KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d177cd95-222c-5514-a0db-6e25757fc2bc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R38")
+			(value "100")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07100RL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07100RL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "1%, 0.125 W; gate pulse rating requires check")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "181f3aa7-ddad-5df3-9d6a-4d52cbbee7eb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R39")
+			(value "0")
+			(footprint "CipinkoKlingacik:R_1206_3216Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC1206JR-070RL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "Fitted zero-ohm bypass; REMOVE when R20 fitted; not a removable ARM link")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Note") "Baseline bypass; remove before fitting R20")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_1206_3216Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC1206JR-070RL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "Fitted zero-ohm bypass; REMOVE when R20 fitted; not a removable ARM link")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Note")
+				(value "Baseline bypass; remove before fitting R20")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "17447cd9-a519-5825-bcf9-d86529595420")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R40")
+			(value "4.7k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-074K7L")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "DNP UART option: 4.7k 1% UVCCB bleeder sized for 12uA off-supply source-current budget; change all target links together, power off")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Note") "DNP UART supply bleeder; does not permit partial-link operation")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-074K7L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "DNP UART option: 4.7k 1% UVCCB bleeder sized for 12uA off-supply source-current budget; change all target links together, power off")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Note")
+				(value "DNP UART supply bleeder; does not permit partial-link operation")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5fdef710-bd4f-50a6-b634-214d7395a5ef")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R41")
+			(value "100k")
+			(footprint "CipinkoKlingacik:R_0805_2012Metric")
+			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(fields
+				(field
+					(name "MPN") "RC0805FR-07100KL")
+				(field
+					(name "Manufacturer") "Yageo")
+				(field
+					(name "Requirement") "DNP UART option: 100k B2 input pull-down; include in target load budget")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Note") "DNP UART B2 input default when RX link/cable absent")
+				(field
+					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
+				(field
+					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "RC0805FR-07100KL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Yageo")
+			)
+			(property
+				(name "Requirement")
+				(value "DNP UART option: 100k B2 input pull-down; include in target load budget")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Note")
+				(value "DNP UART B2 input default when RX link/cable absent")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c298ef6e-9e66-5481-ab7f-0bc892734a33")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP1")
+			(value "AUX_5V")
+			(footprint "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "MPN") "PCB_PAD")
+				(field
+					(name "Manufacturer") "PCB")
+				(field
+					(name "Requirement") "Bare copper probe pad; no purchased component")
+				(field
+					(name "Assembly") "PCB feature")
+				(field
+					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "TP")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_PAD")
+			)
+			(property
+				(name "Manufacturer")
+				(value "PCB")
+			)
+			(property
+				(name "Requirement")
+				(value "Bare copper probe pad; no purchased component")
+			)
+			(property
+				(name "Assembly")
+				(value "PCB feature")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "856b26bc-5eb8-56b7-a973-1ca9535fa94d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP2")
+			(value "MUX_VCC")
+			(footprint "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "MPN") "PCB_PAD")
+				(field
+					(name "Manufacturer") "PCB")
+				(field
+					(name "Requirement") "Bare copper probe pad; no purchased component")
+				(field
+					(name "Assembly") "PCB feature")
+				(field
+					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "TP")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_PAD")
+			)
+			(property
+				(name "Manufacturer")
+				(value "PCB")
+			)
+			(property
+				(name "Requirement")
+				(value "Bare copper probe pad; no purchased component")
+			)
+			(property
+				(name "Assembly")
+				(value "PCB feature")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "64c1b833-05e3-522d-8014-cbcd14994b55")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP3")
+			(value "VHIGH")
+			(footprint "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "MPN") "PCB_PAD")
+				(field
+					(name "Manufacturer") "PCB")
+				(field
+					(name "Requirement") "Bare copper probe pad; no purchased component")
+				(field
+					(name "Assembly") "PCB feature")
+				(field
+					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "TP")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_PAD")
+			)
+			(property
+				(name "Manufacturer")
+				(value "PCB")
+			)
+			(property
+				(name "Requirement")
+				(value "Bare copper probe pad; no purchased component")
+			)
+			(property
+				(name "Assembly")
+				(value "PCB feature")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "896fe26a-f3e9-59ea-a54a-b2748c382920")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP4")
+			(value "VLOW")
+			(footprint "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "MPN") "PCB_PAD")
+				(field
+					(name "Manufacturer") "PCB")
+				(field
+					(name "Requirement") "Bare copper probe pad; no purchased component")
+				(field
+					(name "Assembly") "PCB feature")
+				(field
+					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "TP")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_PAD")
+			)
+			(property
+				(name "Manufacturer")
+				(value "PCB")
+			)
+			(property
+				(name "Requirement")
+				(value "Bare copper probe pad; no purchased component")
+			)
+			(property
+				(name "Assembly")
+				(value "PCB feature")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "122f13c6-c20a-5b17-bb60-3b65544226fb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP5")
+			(value "TARGET_VDD")
+			(footprint "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "MPN") "PCB_PAD")
+				(field
+					(name "Manufacturer") "PCB")
+				(field
+					(name "Requirement") "Bare copper probe pad; no purchased component")
+				(field
+					(name "Assembly") "PCB feature")
+				(field
+					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "TP")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_PAD")
+			)
+			(property
+				(name "Manufacturer")
+				(value "PCB")
+			)
+			(property
+				(name "Requirement")
+				(value "Bare copper probe pad; no purchased component")
+			)
+			(property
+				(name "Assembly")
+				(value "PCB feature")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fa825b66-ed2a-52a0-ab1b-e491913e19c4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP6")
+			(value "GND")
+			(footprint "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "MPN") "PCB_PAD")
+				(field
+					(name "Manufacturer") "PCB")
+				(field
+					(name "Requirement") "Bare copper probe pad; no purchased component")
+				(field
+					(name "Assembly") "PCB feature")
+				(field
+					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "TP")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_PAD")
+			)
+			(property
+				(name "Manufacturer")
+				(value "PCB")
+			)
+			(property
+				(name "Requirement")
+				(value "Bare copper probe pad; no purchased component")
+			)
+			(property
+				(name "Assembly")
+				(value "PCB feature")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "361b9eb9-5abe-5186-9209-5d7d6d6192c2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP7")
+			(value "ISENSE_P")
+			(footprint "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "MPN") "PCB_PAD")
+				(field
+					(name "Manufacturer") "PCB")
+				(field
+					(name "Requirement") "Bare copper probe pad; no purchased component")
+				(field
+					(name "Assembly") "PCB feature")
+				(field
+					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "TP")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_PAD")
+			)
+			(property
+				(name "Manufacturer")
+				(value "PCB")
+			)
+			(property
+				(name "Requirement")
+				(value "Bare copper probe pad; no purchased component")
+			)
+			(property
+				(name "Assembly")
+				(value "PCB feature")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e68e45cc-9a28-5571-8092-d8caa334b8ad")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "TP8")
+			(value "ISENSE_N")
+			(footprint "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+			(fields
+				(field
+					(name "MPN") "PCB_PAD")
+				(field
+					(name "Manufacturer") "PCB")
+				(field
+					(name "Requirement") "Bare copper probe pad; no purchased component")
+				(field
+					(name "Assembly") "PCB feature")
+				(field
+					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "TP")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "PCB_PAD")
+			)
+			(property
+				(name "Manufacturer")
+				(value "PCB")
+			)
+			(property
+				(name "Requirement")
+				(value "Bare copper probe pad; no purchased component")
+			)
+			(property
+				(name "Assembly")
+				(value "PCB feature")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "exclude_from_bom")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c77c5c69-f0c6-5be8-9336-be8d396620d0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "Raspberry Pi Pico 2")
+			(footprint "CipinkoKlingacik:RaspberryPi_Pico_Common_THT")
+			(datasheet "https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf")
+			(fields
+				(field
+					(name "MPN") "SC1631")
+				(field
+					(name "Manufacturer") "Raspberry Pi")
+				(field
+					(name "Requirement") "Pico 2 without headers; hand-fit 2x 1x20 sockets and module headers")
+				(field
+					(name "Assembly") "Module/hand-fit")
+				(field
+					(name "Note") "Full 40-pin socket; module/headers/sockets hand fitted")
+				(field
+					(name "Footprint") "CipinkoKlingacik:RaspberryPi_Pico_Common_THT")
+				(field
+					(name "Datasheet") "https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "PICO")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "SC1631")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Raspberry Pi")
+			)
+			(property
+				(name "Requirement")
+				(value "Pico 2 without headers; hand-fit 2x 1x20 sockets and module headers")
+			)
+			(property
+				(name "Assembly")
+				(value "Module/hand-fit")
+			)
+			(property
+				(name "Note")
+				(value "Full 40-pin socket; module/headers/sockets hand fitted")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "63e5c6c9-fa75-5877-80a1-691dac94b6a0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "33")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "UCC27517DBVR")
+			(footprint "CipinkoKlingacik:SOT-23-5")
+			(datasheet "https://www.ti.com/lit/ds/symlink/ucc27517.pdf")
+			(fields
+				(field
+					(name "MPN") "UCC27517DBVR")
+				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "Requirement") "4.90-5.25 V measured at VDD before arm")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ucc27517.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "U2")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "UCC27517DBVR")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Requirement")
+				(value "4.90-5.25 V measured at VDD before arm")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d0584046-d2c1-5ce3-86f4-0557a5264645")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "NX3L1T3157GMZ")
+			(footprint "CipinkoKlingacik:SOT-886")
+			(datasheet "https://www.nxp.com/docs/en/data-sheet/NX3L1T3157.pdf")
+			(fields
+				(field
+					(name "MPN") "NX3L1T3157GMZ")
+				(field
+					(name "Manufacturer") "NXP")
+				(field
+					(name "Requirement") "XSON6/SOT886; GMZ ordering code, not obsolete ,115/,132")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:SOT-886")
+				(field
+					(name "Datasheet") "https://www.nxp.com/docs/en/data-sheet/NX3L1T3157.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "U3")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "NX3L1T3157GMZ")
+			)
+			(property
+				(name "Manufacturer")
+				(value "NXP")
+			)
+			(property
+				(name "Requirement")
+				(value "XSON6/SOT886; GMZ ordering code, not obsolete ,115/,132")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "14cc15e2-9e07-5d0c-a7d4-e79d170996d7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "AP2112K-3.3")
+			(footprint "CipinkoKlingacik:SOT-23-5")
+			(datasheet "https://www.diodes.com/assets/Datasheets/AP2112.pdf")
+			(fields
+				(field
+					(name "MPN") "AP2112K-3.3TRG1")
+				(field
+					(name "Manufacturer") "Diodes Incorporated")
+				(field
+					(name "Requirement") "3.3 V; verify reservoir startup and stability")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/AP2112.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "U4")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "AP2112K-3.3TRG1")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Diodes Incorporated")
+			)
+			(property
+				(name "Requirement")
+				(value "3.3 V; verify reservoir startup and stability")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "949edcfe-a690-5b06-86ad-cd5725ca1b5d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U5")
+			(value "AP2112K-1.8")
+			(footprint "CipinkoKlingacik:SOT-23-5")
+			(datasheet "https://www.diodes.com/assets/Datasheets/AP2112.pdf")
+			(fields
+				(field
+					(name "MPN") "AP2112K-1.8TRG1")
+				(field
+					(name "Manufacturer") "Diodes Incorporated")
+				(field
+					(name "Requirement") "1.8 V; source-only, reservoir/bleeder absorb dip charge")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/AP2112.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "U5")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "AP2112K-1.8TRG1")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Diodes Incorporated")
+			)
+			(property
+				(name "Requirement")
+				(value "1.8 V; source-only, reservoir/bleeder absorb dip charge")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "2ac9286c-3bae-5861-84dd-d58d7ed518e0")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U6")
+			(value "TLV70436DBVR")
+			(footprint "CipinkoKlingacik:SOT-23-5")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tlv704.pdf")
+			(fields
+				(field
+					(name "MPN") "TLV70436DBVR")
+				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "Requirement") "3.6 V; pinout differs from AP2112")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlv704.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "U6")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "TLV70436DBVR")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Requirement")
+				(value "3.6 V; pinout differs from AP2112")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "94608bb2-ae8c-5509-8836-e9779741ac8b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U7")
+			(value "SN74LVC1G17")
+			(footprint "CipinkoKlingacik:SOT-23-5")
+			(datasheet "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf")
+			(fields
+				(field
+					(name "MPN") "SN74LVC1G17DBVR")
+				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "Requirement") "3.3 V trigger input only")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Footprint") "CipinkoKlingacik:SOT-23-5")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "U7")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "SN74LVC1G17DBVR")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Requirement")
+				(value "3.3 V trigger input only")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "169baa8f-2446-5ff5-9598-4f678979e8d3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U8")
+			(value "SN74AXC4T774PWR")
+			(footprint "CipinkoKlingacik:TSSOP-16_4.4x5mm_P0.65mm")
+			(datasheet "https://www.ti.com/lit/ds/symlink/sn74axc4t774.pdf")
+			(fields
+				(field
+					(name "MPN") "SN74AXC4T774PWR")
+				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "Requirement") "Optional UART; independent DIR pins; OE high disables")
+				(field
+					(name "Assembly") "SMT")
+				(field
+					(name "Note") "DNP; symbol pin types reflect hardwired DIR1=1, DIR2/3/4=0, not a general-purpose translator")
+				(field
+					(name "Footprint") "CipinkoKlingacik:TSSOP-16_4.4x5mm_P0.65mm")
+				(field
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/sn74axc4t774.pdf")
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "CipinkoKlingacik")
+				(part "U8")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "SN74AXC4T774PWR")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Requirement")
+				(value "Optional UART; independent DIR pins; OE high disables")
+			)
+			(property
+				(name "Assembly")
+				(value "SMT")
+			)
+			(property
+				(name "Note")
+				(value "DNP; symbol pin types reflect hardwired DIR1=1, DIR2/3/4=0, not a general-purpose translator")
+			)
+			(property
+				(name "Sheetname")
+				(value "cipinkoklingacik")
+			)
+			(property
+				(name "Sheetfile")
+				(value "cipinkoklingacik.kicad_sch")
+			)
+			(property
+				(name "dnp")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "339c1611-5847-5192-bc83-7aa0f51c5441")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "CONN2")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "CONN2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "CONN3")
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "CONN3")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "3")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "CP")
+			(description "Polarized capacitor")
+			(footprints
+				(fp "CP_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Polarized")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Polarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "D")
+			(description "Schottky diode")
+			(footprints
+				(fp "TO-???*")
+				(fp "*_Diode_*")
+				(fp "*SingleDiode*")
+				(fp "D_*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "D_Schottky")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Schottky diode")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "JP2")
+			(fields
+				(field
+					(name "Reference") "JP")
+				(field
+					(name "Value") "JP2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "LED")
+			(description "Light emitting diode")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "NMOS")
+			(description "N-MOSFET transistor, gate/source/drain")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "Q_NMOS_GSD")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET transistor, gate/source/drain")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "PICO")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "PICO")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GP0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "GP1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "GP2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "GP3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "GP4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "GP5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "9")
+					(name "GP6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "GP7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "GP8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "GP9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "GP10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "GP11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "GP12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "GP13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "19")
+					(name "GP14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "GP15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "GP16")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "GP17")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "24")
+					(name "GP18")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "GP19")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "GP20")
+					(type "bidirectional")
+				)
+				(pin
+					(num "27")
+					(name "GP21")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "29")
+					(name "GP22")
+					(type "bidirectional")
+				)
+				(pin
+					(num "30")
+					(name "RUN")
+					(type "input")
+				)
+				(pin
+					(num "31")
+					(name "GP26_ADC0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "32")
+					(name "GP27_ADC1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "33")
+					(name "AGND")
+					(type "power_in")
+				)
+				(pin
+					(num "34")
+					(name "GP28_ADC2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "35")
+					(name "ADC_VREF")
+					(type "bidirectional")
+				)
+				(pin
+					(num "36")
+					(name "3V3")
+					(type "power_out")
+				)
+				(pin
+					(num "37")
+					(name "3V3_EN")
+					(type "input")
+				)
+				(pin
+					(num "38")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "39")
+					(name "VSYS")
+					(type "power_in")
+				)
+				(pin
+					(num "40")
+					(name "VBUS")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "PMOS")
+			(description "P-MOSFET transistor, gate/source/drain")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "Q_PMOS_GSD")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "P-MOSFET transistor, gate/source/drain")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "PTC")
+			(fields
+				(field
+					(name "Reference") "F")
+				(field
+					(name "Value") "PTC")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "SHUNT4")
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "SHUNT4")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "FORCE+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "SENSE+")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "SENSE-")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "FORCE-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "TP")
+			(fields
+				(field
+					(name "Reference") "TP")
+				(field
+					(name "Value") "TP")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "U2")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U2")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "IN+")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "IN-")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "OUT")
+					(type "output")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "U3")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U3")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Y1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "Y0")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Z")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "S")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "U4")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U4")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VIN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "5")
+					(name "VOUT")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "U5")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U5")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VIN")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "EN")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "5")
+					(name "VOUT")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "U6")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U6")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "IN")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "OUT")
+					(type "power_out")
+				)
+				(pin
+					(num "4")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "5")
+					(name "NC")
+					(type "no_connect")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "U7")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U7")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "NC")
+					(type "no_connect")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "Y")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "CipinkoKlingacik")
+			(part "U8")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "U8")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "DIR1")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "DIR2")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "A1")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "A2")
+					(type "tri_state")
+				)
+				(pin
+					(num "5")
+					(name "A3")
+					(type "tri_state")
+				)
+				(pin
+					(num "6")
+					(name "A4")
+					(type "tri_state")
+				)
+				(pin
+					(num "7")
+					(name "DIR3")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "DIR4")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "OE")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "11")
+					(name "B4")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "B3")
+					(type "input")
+				)
+				(pin
+					(num "13")
+					(name "B2")
+					(type "input")
+				)
+				(pin
+					(num "14")
+					(name "B1")
+					(type "tri_state")
+				)
+				(pin
+					(num "15")
+					(name "VCCB")
+					(type "power_in")
+				)
+				(pin
+					(num "16")
+					(name "VCCA")
+					(type "power_in")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "CipinkoKlingacik")
+			(uri "${KIPRJMOD}/cipinkoklingacik.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "/3V3")
+			(class "Default")
+			(node
+				(ref "C16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R34")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "36")
+				(pinfunction "3V3_36")
+				(pintype "power_out")
+			)
+			(node
+				(ref "U7")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "1")
+				(pinfunction "DIR1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "16")
+				(pinfunction "VCCA_16")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "/AG")
+			(class "Default")
+			(node
+				(ref "Q6")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R26")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "3")
+			(name "/AL")
+			(class "Default")
+			(node
+				(ref "JP2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q6")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "4")
+			(name "/ARM_EN")
+			(class "Default")
+			(node
+				(ref "R25")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "11")
+				(pinfunction "GP8_11")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "5")
+			(name "/AUX5")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D1")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "F1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "VIN_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "1")
+				(pinfunction "VIN_1")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "6")
+			(name "/CB_PULSE")
+			(class "Default")
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R22")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "GP2_4")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "7")
+			(name "/EN_H")
+			(class "Default")
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "8")
+			(name "/EN_L")
+			(class "Default")
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R35")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "9")
+			(name "/GL")
+			(class "Default")
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/GND")
+			(class "Default")
+			(node
+				(ref "C1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C7")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D2")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q4")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q5")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q6")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R26")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R28")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R30")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R33")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R37")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R40")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R41")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP6")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "13")
+				(pinfunction "GND_13")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "18")
+				(pinfunction "GND_18")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "23")
+				(pinfunction "GND_23")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "28")
+				(pinfunction "GND_28")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "33")
+				(pinfunction "AGND_33")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "38")
+				(pinfunction "GND_38")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U1")
+				(pin "8")
+				(pinfunction "GND_8")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U5")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "1")
+				(pinfunction "GND_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U7")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "10")
+				(pinfunction "GND_10")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U8")
+				(pin "11")
+				(pinfunction "B4_11")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "12")
+				(pinfunction "B3_12")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "2")
+				(pinfunction "DIR2_2")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "7")
+				(pinfunction "DIR3_7")
+				(pintype "input")
+			)
+			(node
+				(ref "U8")
+				(pin "8")
+				(pinfunction "DIR4_8")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "11")
+			(name "/HOLD")
+			(class "Default")
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C9")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U6")
+				(pin "2")
+				(pinfunction "IN_2")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "12")
+			(name "/ISENSE_N")
+			(class "Default")
+			(node
+				(ref "R20")
+				(pin "3")
+				(pinfunction "SENSE-_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP8")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "13")
+			(name "/ISENSE_P")
+			(class "Default")
+			(node
+				(ref "R20")
+				(pin "2")
+				(pinfunction "SENSE+_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP7")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "14")
+			(name "/LED")
+			(class "Default")
+			(node
+				(ref "R7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "10")
+				(pinfunction "GP7_10")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "15")
+			(name "/LEDA")
+			(class "Default")
+			(node
+				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R7")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "16")
+			(name "/MUX_CMD")
+			(class "Default")
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R36")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "7")
+				(pinfunction "GP5_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "17")
+			(name "/MUX_S")
+			(class "Default")
+			(node
+				(ref "R36")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R37")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "6")
+				(pinfunction "S_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "18")
+			(name "/MVCC")
+			(class "Default")
+			(node
+				(ref "C11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "3")
+				(pinfunction "OUT_3")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "19")
+			(name "/MY0")
+			(class "Default")
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "Y0_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "20")
+			(name "/MY1")
+			(class "Default")
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "Y1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "21")
+			(name "/MZ")
+			(class "Default")
+			(node
+				(ref "Q2")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "Z_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "/Q1G")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R27")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R28")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "/Q4D")
+			(class "Default")
+			(node
+				(ref "Q4")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R38")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "/Q23G")
+			(class "Default")
+			(node
+				(ref "Q2")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "Q3")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R38")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "/Q23S")
+			(class "Default")
+			(node
+				(ref "Q2")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q3")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R17")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "/REN")
+			(class "Default")
+			(node
+				(ref "R35")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "14")
+				(pinfunction "GP10_14")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "27")
+			(name "/RET")
+			(class "Default")
+			(node
+				(ref "D1")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "/RST_ASSERT")
+			(class "Default")
+			(node
+				(ref "R29")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "9")
+				(pinfunction "GP6_9")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "29")
+			(name "/RST_G")
+			(class "Default")
+			(node
+				(ref "Q5")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R29")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R30")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "/RST_T")
+			(class "Default")
+			(node
+				(ref "J3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q5")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R31")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "/TGT_G")
+			(class "Default")
+			(node
+				(ref "Q4")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R19")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "/TGT_ON")
+			(class "Default")
+			(node
+				(ref "R18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R2")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "6")
+				(pinfunction "GP4_6")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "33")
+			(name "/TRIG_F")
+			(class "Default")
+			(node
+				(ref "R32")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R33")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U7")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "34")
+			(name "/TRIG_IN")
+			(class "Default")
+			(node
+				(ref "J4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R32")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "35")
+			(name "/TRIG_OUT")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "5")
+				(pinfunction "GP3_5")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U7")
+				(pin "4")
+				(pinfunction "Y_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "36")
+			(name "/TVDD")
+			(class "Default")
+			(node
+				(ref "J2")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "4")
+				(pinfunction "FORCE-_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "R21")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R31")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R39")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "/T_PRE")
+			(class "Default")
+			(node
+				(ref "Q3")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R20")
+				(pin "1")
+				(pinfunction "FORCE+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R39")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "/U2N")
+			(class "Default")
+			(node
+				(ref "JP2")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "IN-_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "39")
+			(name "/U2O")
+			(class "Default")
+			(node
+				(ref "R27")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "OUT_5")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "40")
+			(name "/U2P")
+			(class "Default")
+			(node
+				(ref "R22")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "IN+_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "41")
+			(name "/UART_OE")
+			(class "Default")
+			(node
+				(ref "R34")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "12")
+				(pinfunction "GP9_12")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U8")
+				(pin "9")
+				(pinfunction "OE_9")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "42")
+			(name "/URX")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "GP1_2")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U8")
+				(pin "4")
+				(pinfunction "A2_4")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "43")
+			(name "/URX_C")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP4")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "44")
+			(name "/URX_T")
+			(class "Default")
+			(node
+				(ref "JP4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "14")
+				(pinfunction "B1_14")
+				(pintype "tri_state")
+			)
+		)
+		(net
+			(code "45")
+			(name "/UTX")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "GP0_1")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U8")
+				(pin "3")
+				(pinfunction "A1_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "46")
+			(name "/UTX_C")
+			(class "Default")
+			(node
+				(ref "J5")
+				(pin "3")
+				(pinfunction "3_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP5")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "47")
+			(name "/UTX_T")
+			(class "Default")
+			(node
+				(ref "JP5")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R41")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "13")
+				(pinfunction "B2_13")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "48")
+			(name "/UVCCB")
+			(class "Default")
+			(node
+				(ref "C18")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "JP3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R40")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U8")
+				(pin "15")
+				(pinfunction "VCCB_15")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "49")
+			(name "/VBUS")
+			(class "Default")
+			(node
+				(ref "F1")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U1")
+				(pin "40")
+				(pinfunction "VBUS_40")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "50")
+			(name "/VH")
+			(class "Default")
+			(node
+				(ref "C4")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "VOUT_5")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "51")
+			(name "/VL")
+			(class "Default")
+			(node
+				(ref "C7")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C8")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "TP4")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U5")
+				(pin "5")
+				(pinfunction "VOUT_5")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(U1-3V3_EN-Pad37)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "37")
+				(pinfunction "3V3_EN_37")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(U1-ADC_VREF-Pad35)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "35")
+				(pinfunction "ADC_VREF_35")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "54")
+			(name "unconnected-(U1-GP11-Pad15)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "15")
+				(pinfunction "GP11_15")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "55")
+			(name "unconnected-(U1-GP12-Pad16)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "16")
+				(pinfunction "GP12_16")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "56")
+			(name "unconnected-(U1-GP13-Pad17)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "17")
+				(pinfunction "GP13_17")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(U1-GP14-Pad19)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "19")
+				(pinfunction "GP14_19")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(U1-GP15-Pad20)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "20")
+				(pinfunction "GP15_20")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(U1-GP16-Pad21)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "21")
+				(pinfunction "GP16_21")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(U1-GP17-Pad22)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "22")
+				(pinfunction "GP17_22")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "61")
+			(name "unconnected-(U1-GP18-Pad24)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "24")
+				(pinfunction "GP18_24")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "62")
+			(name "unconnected-(U1-GP19-Pad25)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "25")
+				(pinfunction "GP19_25")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "63")
+			(name "unconnected-(U1-GP20-Pad26)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "26")
+				(pinfunction "GP20_26")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "64")
+			(name "unconnected-(U1-GP21-Pad27)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "27")
+				(pinfunction "GP21_27")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "65")
+			(name "unconnected-(U1-GP22-Pad29)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "29")
+				(pinfunction "GP22_29")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(U1-GP26_ADC0-Pad31)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "31")
+				(pinfunction "GP26_ADC0_31")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "67")
+			(name "unconnected-(U1-GP27_ADC1-Pad32)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "32")
+				(pinfunction "GP27_ADC1_32")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "68")
+			(name "unconnected-(U1-GP28_ADC2-Pad34)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "34")
+				(pinfunction "GP28_ADC2_34")
+				(pintype "bidirectional+no_connect")
+			)
+		)
+		(net
+			(code "69")
+			(name "unconnected-(U1-RUN-Pad30)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "30")
+				(pinfunction "RUN_30")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "70")
+			(name "unconnected-(U1-VSYS-Pad39)")
+			(class "Default")
+			(node
+				(ref "U1")
+				(pin "39")
+				(pinfunction "VSYS_39")
+				(pintype "power_in+no_connect")
+			)
+		)
+		(net
+			(code "71")
+			(name "unconnected-(U4-NC-Pad4)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "NC_4")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "72")
+			(name "unconnected-(U5-NC-Pad4)")
+			(class "Default")
+			(node
+				(ref "U5")
+				(pin "4")
+				(pinfunction "NC_4")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "73")
+			(name "unconnected-(U6-NC-Pad4)")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "4")
+				(pinfunction "NC_4")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "74")
+			(name "unconnected-(U6-NC-Pad5)")
+			(class "Default")
+			(node
+				(ref "U6")
+				(pin "5")
+				(pinfunction "NC_5")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "75")
+			(name "unconnected-(U7-NC-Pad1)")
+			(class "Default")
+			(node
+				(ref "U7")
+				(pin "1")
+				(pinfunction "NC_1")
+				(pintype "no_connect")
+			)
+		)
+		(net
+			(code "76")
+			(name "unconnected-(U8-A3-Pad5)")
+			(class "Default")
+			(node
+				(ref "U8")
+				(pin "5")
+				(pinfunction "A3_5")
+				(pintype "tri_state+no_connect")
+			)
+		)
+		(net
+			(code "77")
+			(name "unconnected-(U8-A4-Pad6)")
+			(class "Default")
+			(node
+				(ref "U8")
+				(pin "6")
+				(pinfunction "A4_6")
+				(pintype "tri_state+no_connect")
+			)
+		)
+	)
+)

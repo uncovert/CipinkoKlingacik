@@ -1,0 +1,25 @@
+name: Repository and release-artifact checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-and-package:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify checked-in evidence, run tests, package prerelease
+        run: python3 scripts/package_release.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cipinkoklingacik-prerelease
+          path: dist/*
+          if-no-files-found: error

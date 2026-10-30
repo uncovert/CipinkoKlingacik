@@ -1,0 +1,14 @@
+{
+  "revision": "C3",
+  "fabrication_release": false,
+  "design_stage": "engineering-prototype candidate",
+  "routing_complete": true,
+  "geometry_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "board_sha256": "57e30dfc570bdc0e43d36096923e3169187b0db4840fec9d70367bdbd46c96a8",
+  "schematic_sha256": "9dee4fb6eecf24aaa014c17a3a561823b7744e7de247a1c9638019c7bc7dacff",
+  "project_sha256": "ec8ad623e6599c5c1f016df9f6e8a333e245cb6c90a9bac091475ee1c37d2308",
+  "drc_sha256": "85cb2bd890c0cad8a7266dd7da868758207a57f3eb8d19a782b268ddd15a9470",
+  "hardware_qualification": "NOT PERFORMED"
+}

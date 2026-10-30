@@ -1,0 +1,31 @@
+# Python / local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# KiCad local state, locks and backups (authoritative sources stay tracked)
+*.kicad_prl
+*.kicad_pcb.lck
+*.kicad_sch.lck
+~*.lck
+*-backups/
+*.bak
+*.bck
+*.sch-bak
+*.pcb-bak
+fp-info-cache
+hardware/.baseline-stencil-*/
+hardware/.pcba-visuals-*/
+
+# Local packaging / credentials / editor state
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/

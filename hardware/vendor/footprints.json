@@ -1,0 +1,78 @@
+{
+  "SOT-23": {
+    "upstream": "Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod",
+    "sha256": "0d88c86c1b6d8c1aae4aa8c09386264c089d4451a128b6ccd63ed253f4300b15"
+  },
+  "SOT-23-5": {
+    "upstream": "Package_TO_SOT_SMD.pretty/SOT-23-5.kicad_mod",
+    "sha256": "455a3f7c3e5eb5b8847eaa5df23e18651e78ab9f75afd09a0883758a0d901761"
+  },
+  "SOT-886": {
+    "upstream": "Package_TO_SOT_SMD.pretty/SOT-886.kicad_mod",
+    "sha256": "7fcd67e545ff9fd273ec2863d81a9633b28385837790760ffc1dbaaa71a4df13"
+  },
+  "D_SOD-323": {
+    "upstream": "Diode_SMD.pretty/D_SOD-323.kicad_mod",
+    "sha256": "03669ee95335b8ad49c3458e5262e7c2fd7ace6fe481bfd00f46b6f2f32abc8a"
+  },
+  "TSSOP-16_4.4x5mm_P0.65mm": {
+    "upstream": "Package_SO.pretty/TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
+    "sha256": "fbac79fc5f310754726589d67071a422c429216f843ecd6013bbe2e6a49e7064"
+  },
+  "RaspberryPi_Pico_Common_THT": {
+    "upstream": "Module.pretty/RaspberryPi_Pico_Common_THT.kicad_mod",
+    "sha256": "5e9eaf236684e2284488f364555fa0b33d51a5404f88e4d6c89049add14d9dbe"
+  },
+  "R_0805_2012Metric": {
+    "upstream": "Resistor_SMD.pretty/R_0805_2012Metric.kicad_mod",
+    "sha256": "f050b6a50cc7e6f86291fb7aa8f87b0d02255e21cfbddf291cdccc87e5889794"
+  },
+  "R_2512_6332Metric": {
+    "upstream": "Resistor_SMD.pretty/R_2512_6332Metric.kicad_mod",
+    "sha256": "abab4bf8eeb3ed03061d8eeb56b542cdac074ce8a0ace0f9b06e933c0b48f297"
+  },
+  "C_0805_2012Metric": {
+    "upstream": "Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+    "sha256": "62775a51fe74ba7f1b572de327bdbd3fc92582721b2abcaa47787865590d89cb"
+  },
+  "C_1206_3216Metric": {
+    "upstream": "Capacitor_SMD.pretty/C_1206_3216Metric.kicad_mod",
+    "sha256": "b2e4a08e3aaf40bc587090190c0e3969e962d7ae962c172cce0581ae8327651c"
+  },
+  "CP_Elec_6.3x5.8": {
+    "upstream": "Capacitor_SMD.pretty/CP_Elec_6.3x5.8.kicad_mod",
+    "sha256": "3e486860d8806d23331d3e53b4ec01c8a40087729f1f037167db2a17598ad444"
+  },
+  "LED_0805_2012Metric": {
+    "upstream": "LED_SMD.pretty/LED_0805_2012Metric.kicad_mod",
+    "sha256": "8806125556e590701b13b47a1725dff28fc47fca41a7905c7d78c8312d08cbbd"
+  },
+  "Fuse_1206_3216Metric": {
+    "upstream": "Fuse.pretty/Fuse_1206_3216Metric.kicad_mod",
+    "sha256": "8f4307d8c771db71526ed8ccf7c762824636660adec3635905932cc5e1d02280"
+  },
+  "TestPoint_Pad_D1.5mm": {
+    "upstream": "TestPoint.pretty/TestPoint_Pad_D1.5mm.kicad_mod",
+    "sha256": "d7ae230b69d8c3dad5082515a51aac9e4840360c8f4324a00673353676d43042"
+  },
+  "PinHeader_1x02_P2.54mm_Vertical": {
+    "upstream": "Connector_PinHeader_2.54mm.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod",
+    "sha256": "5301303268f72ba9cc94b7fdbac355951933e6854272ce8d300b679b86b5d45d"
+  },
+  "PinHeader_1x03_P2.54mm_Vertical": {
+    "upstream": "Connector_PinHeader_2.54mm.pretty/PinHeader_1x03_P2.54mm_Vertical.kicad_mod",
+    "sha256": "e5f24b6fea852f86171042806da48490229c9c8025b6d266b8cad6485b26e79f"
+  },
+  "R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm": {
+    "upstream": "Resistor_SMD.pretty/R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm.kicad_mod",
+    "sha256": "49f6162b76753dfe22cff076fe37c57282fa7e65118d7a5970436cbd59b78275"
+  },
+  "R_1206_3216Metric": {
+    "upstream": "Resistor_SMD.pretty/R_1206_3216Metric.kicad_mod",
+    "sha256": "c7320668dc81bbb954cb4f15e4e7a766c120059343d43551468c8f7ccc8fde37"
+  },
+  "MountingHole_2.7mm_M2.5": {
+    "upstream": "MountingHole.pretty/MountingHole_2.7mm_M2.5.kicad_mod",
+    "sha256": "d28d0215a45e6dd7c7ea0a27ffc55c41e75cd87ce37ab43b84c6cbe6abfe67d8"
+  }
+}

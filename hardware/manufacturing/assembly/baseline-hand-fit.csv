@@ -1,0 +1,8 @@
+Reference,Value,MPN,Manufacturer,Footprint,DNP,Assembly,Requirement,Datasheet
+U1,Raspberry Pi Pico 2,SC1631,Raspberry Pi,CipinkoKlingacik:RaspberryPi_Pico_Common_THT,no,Module/hand-fit,Pico 2 without headers; hand-fit 2x 1x20 sockets and module headers,https://datasheets.raspberrypi.com/pico/pico-2-datasheet.pdf
+JP2,ARM link,TSW-102-07-G-S,Samtec,CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical,no,THT/hand-fit,2.54 mm header; pin1 marked; hand-fit; removable shunts separate,https://suddendocs.samtec.com/catalog_english/tsw.pdf
+J1,GLITCH/GND,TSW-102-07-G-S,Samtec,CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical,no,THT/hand-fit,2.54 mm header; pin1 marked; hand-fit; removable shunts separate,https://suddendocs.samtec.com/catalog_english/tsw.pdf
+J2,TARGET/GND,TSW-102-07-G-S,Samtec,CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical,no,THT/hand-fit,2.54 mm header; pin1 marked; hand-fit; removable shunts separate,https://suddendocs.samtec.com/catalog_english/tsw.pdf
+J3,RESET/GND,TSW-102-07-G-S,Samtec,CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical,no,THT/hand-fit,2.54 mm header; pin1 marked; hand-fit; removable shunts separate,https://suddendocs.samtec.com/catalog_english/tsw.pdf
+J4,TRIGGER/GND,TSW-102-07-G-S,Samtec,CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical,no,THT/hand-fit,2.54 mm header; pin1 marked; hand-fit; removable shunts separate,https://suddendocs.samtec.com/catalog_english/tsw.pdf
+J5,UART,TSW-103-07-G-S,Samtec,CipinkoKlingacik:PinHeader_1x03_P2.54mm_Vertical,no,THT/hand-fit,2.54 mm header; pin1 marked; hand-fit; removable shunts separate,https://suddendocs.samtec.com/catalog_english/tsw.pdf
