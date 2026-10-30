@@ -1,4 +1,4 @@
-# ČipinkoKlingáčik hardware — C3
+# ČipinkoKlingáčik hardware — C4
 
 **Engineering-prototype design files, not qualified hardware.** Open
 [`cipinkoklingacik.kicad_pro`](cipinkoklingacik.kicad_pro) in **KiCad 10**.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the C3 KiCad schematic, local symbols and candidate BOMs.
+"""Generate the C4 KiCad schematic, local symbols and candidate BOMs.
 
 Requires the pinned hardware requirements and vendored primitive symbols.
 This is a generator-owned, net-labelled schematic, not a round-trip GUI editor.
@@ -189,8 +189,8 @@ def make_symbols() -> dict[str, SymDef]:
         [("VIN", 1, 7.62), ("GND", 2, 0), ("EN", 3, -7.62)],
         [("NC", 4, 7.62), ("VOUT", 5, -7.62)])
     syms["U6"] = ic2("U6", "U", 20.32, 17.78,
-        [("GND", 1, 5.08), ("IN", 2, 0)],
-        [("OUT", 3, 5.08), ("NC", 4, 0), ("NC", 5, -5.08)])
+        [("IN", 1, 5.08), ("GND", 2, 0), ("EN", 3, -5.08)],
+        [("OUT", 5, 5.08), ("NC", 4, -5.08)])
     syms["U7"] = ic2("U7", "U", 20.32, 22.86,
         [("NC", 1, 7.62), ("A", 2, 0), ("GND", 3, -7.62)],
         [("Y", 4, 5.08), ("VCC", 5, -5.08)])
@@ -306,7 +306,7 @@ for _u in ("U4", "U5"):
     _set_types(_u, {"VIN": "power_in", "GND": "power_in", "EN": "input",
                     "NC": "no_connect", "VOUT": "power_out"})
 _set_types("U6", {"GND": "power_in", "IN": "power_in", "OUT": "power_out",
-                  "NC": "no_connect"})
+                  "EN": "input", "NC": "no_connect"})
 _set_types("U7", {"NC": "no_connect", "A": "input", "GND": "power_in",
                   "Y": "output", "VCC": "power_in"})
 _set_types("U8", {"VCCA": "power_in", "VCCB": "power_in", "GND": "power_in",
@@ -381,7 +381,7 @@ class Builder:
         self.s.paper.paperSize = "A2"
         self.s.paper.portrait = False
         self.s.titleBlock = TitleBlock(
-            title="ČipinkoKlingáčik C3 - engineering prototype", date="2026-10-30", revision="C3",
+            title="ČipinkoKlingáčik C4 - engineering prototype", date="2026-10-30", revision="C4",
             company="ČipinkoKlingáčik contributors",
             comments={1: "Engineering prototype - sourcing/assembly approval and hardware qualification pending"},
         )
@@ -433,13 +433,15 @@ class Builder:
             props[1].effects = HIDE
         if selected:
             metadata = {"MPN": selected.mpn, "Manufacturer": selected.manufacturer,
-                        "Requirement": selected.requirement, "Assembly": selected.assembly}
+                        "Requirement": selected.requirement, "Assembly": selected.assembly,
+                        "LCSC": selected.lcsc}
             for key, content in metadata.items():
                 props.append(Property(key, content, len(props), Position(x, y, 0), hid))
             self.bom.append({"Reference": ref, "Value": value, "MPN": selected.mpn,
                              "Manufacturer": selected.manufacturer, "Footprint": footprint,
                              "DNP": "yes" if not in_bom else "no", "Assembly": selected.assembly,
-                             "Requirement": selected.requirement, "Datasheet": selected.datasheet})
+                             "Requirement": selected.requirement, "Datasheet": selected.datasheet,
+                             "LCSC": selected.lcsc})
         if note:
             props.append(Property("Note", note, len(props), Position(x, val_y + 2.54, 0), HIDE))
         inst = SchematicSymbol(
@@ -531,7 +533,7 @@ class Builder:
         for filename, rows in (("cipinkoklingacik-parts-all.csv", self.bom),
                                ("cipinkoklingacik-bom.csv", [r for r in self.bom if r["DNP"] == "no" and r["Assembly"] != "PCB feature"])):
             with (OUT / filename).open("w", newline="") as stream:
-                writer = csv.DictWriter(stream, fieldnames=list(self.bom[0]))
+                writer = csv.DictWriter(stream, fieldnames=list(self.bom[0]), lineterminator="\n")
                 writer.writeheader()
                 writer.writerows(rows)
 
@@ -603,8 +605,8 @@ def main() -> int:
     two("R", "R13", "1k", 170, 200, "RET_CHG", "HOLD_IN")
     two("CP", "C9", "100uF", 190, 200, "HOLD_IN", "GND")
     two("C", "C10", "1uF", 205, 200, "HOLD_IN", "GND")
-    u6 = b.place("U6", "U6", "TLV70436DBVR", 250, 200)
-    b.label_all(u6, {"1": "GND", "2": "HOLD_IN", "3": "MUX_VCC", "4": None, "5": None})
+    u6 = b.place("U6", "U6", "TPS7A2036PDBVR", 250, 200)
+    b.label_all(u6, {"1": "HOLD_IN", "2": "GND", "3": "HOLD_IN", "4": None, "5": "MUX_VCC"})
     two("C", "C11", "1uF", 280, 200, "MUX_VCC", "GND")
     two("R", "R14", "100k", 295, 200, "MUX_VCC", "GND")
 
@@ -624,8 +626,8 @@ def main() -> int:
     two("R", "R12", "330", 230, 115, "VLOW", "GND")
 
     # ---- Selector, disconnect and target ------------------------------------------
-    two("R", "R15", "15 1% >=1W", 260, 170, "VHIGH", "MUX_Y0")
-    two("R", "R16", "15 1% >=1W", 260, 135, "VLOW", "MUX_Y1")
+    two("R", "R15", "15 1% 2W", 260, 170, "VHIGH", "MUX_Y0")
+    two("R", "R16", "15 1% 2W", 260, 135, "VLOW", "MUX_Y1")
     u3 = b.place("U3", "U3", "NX3L1T3157GMZ", 300, 150)
     b.label_all(u3, {"1": "MUX_Y1", "2": "GND", "3": "MUX_Y0", "4": "MUX_Z",
                      "5": "MUX_VCC", "6": "MUX_SELECT"})
@@ -724,7 +726,7 @@ def main() -> int:
     b.text(150, 263, "7. Optional UART (native DNP)", 2.2)
     b.text(325, 263, "8. Probe pads / ERC flags", 2.2)
     for y, text in [
-        (280, "C3 ENGINEERING PROTOTYPE - HARDWARE UNQUALIFIED"),
+        (280, "C4 ENGINEERING PROTOTYPE - HARDWARE UNQUALIFIED"),
         (286, "15 ohm in each mux input; <=10 mA total target load."),
         (291, "100 nF: about 5.8 us settling; no settled 100 ns plateau."),
         (296, "GL is separate from TVDD. External supply: unplug TVDD."),

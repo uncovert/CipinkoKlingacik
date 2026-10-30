@@ -18,9 +18,11 @@ class ReleaseTests(unittest.TestCase):
 
     def test_public_identity_and_project_mapping(self):
         board = loads((ROOT / "hardware/cipinkoklingacik.kicad_pcb").read_text())
-        self.assertIn("ČipinkoKlingáčik C3", {text[1] for text in children(board, "gr_text")})
+        self.assertIn("ČipinkoKlingáčik C4", {text[1] for text in children(board, "gr_text")})
         sch = loads((ROOT / "hardware/cipinkoklingacik.kicad_sch").read_text())
         self.assertIn("ČipinkoKlingáčik", child(child(sch, "title_block"), "title")[1])
+        self.assertEqual(child(child(board, "title_block"), "rev")[1], "C4")
+        self.assertEqual(child(child(sch, "title_block"), "rev")[1], "C4")
         self.assertTrue(all(fp[1].startswith("CipinkoKlingacik:") for fp in children(board, "footprint")))
 
     def test_obsolete_attempts_and_local_state_are_not_release_sources(self):

@@ -1,6 +1,6 @@
-# v0.1.0-alpha.1 — engineering-prototype prerelease
+# v0.1.0-alpha.2 — C4 engineering-prototype prerelease
 
-This is a public-source/design handoff of **ČipinkoKlingáčik C3**, not a qualified
+This is a public-source/design handoff of **ČipinkoKlingáčik C4**, not a qualified
 PCBA product. Mark it as a **GitHub prerelease**, not a stable/production release.
 Firmware and SWD synchronization are not implemented. Hardware has not been built
 or measured; supplier, stackup, rotation, socket/USB and thermal/transient gates
@@ -14,13 +14,24 @@ data; illustrated assembly views; build/verification tools and tests; licences.
 No obsolete design variants, one-shot repair scripts, private review transcripts,
 downloaded manufacturer PDFs, virtual environments or temporary boards are bundled.
 
+## Changes from alpha.1 / C3
+
+- Stocked TI TPS7A2036P with revised U6 pinout/routing and local C10/C11 bypass;
+  Littelfuse PTC and exact Yageo 15 Ω / 1% / 2 W limiters; eight Basic passives.
+- Move C4/C7/C9/C11 ground vias outside solder pads/openings, with a baseline
+  DFM regression guard. No special via-in-pad filling process is assumed.
+- Correct diode datasheet/pitch/rating documentation and disclose procurement
+  minimum/attrition fields separately from the exact-quantity cost model.
+- Bind fresh ERC and 2D review artifacts to sources. **Do not mix C3/TLV704
+  fabrication files with this C4 BOM/CPL.**
+
 ## Prepare an asset locally
 
 ```sh
 python3 scripts/package_release.py
 ```
 
-The output is `dist/cipinkoklingacik-v0.1.0-alpha.1.zip` and `dist/SHA256SUMS`.
+The output is `dist/cipinkoklingacik-v0.1.0-alpha.2.zip` and `dist/SHA256SUMS`.
 The ZIP has a single versioned root and an internal SHA-256 inventory. The script
 verifies metadata, fresh report/export/render hashes and documentation/licensing,
 then runs all tests. It does not run fresh KiCad; do the full BUILD.md sequence
@@ -32,7 +43,7 @@ after hardware edits. Packaging never creates a remote repository or publishes.
 2. Run tests and packaging; inspect the archive and checksum inventory.
 3. Commit to the local `main` branch and create your GitHub repository using the
    ASCII name **`cipinkoklingacik`**. Set the display name to **ČipinkoKlingáčik**.
-4. Configure your chosen remote, push the commit and tag `v0.1.0-alpha.1`.
+4. Configure your chosen remote, push the commit and tag `v0.1.0-alpha.2`.
 5. Create a **prerelease**, attach the ZIP and SHA256SUMS, and use these notes.
 
 No GitHub owner/remote, commit, tag or publication is assumed by these files.

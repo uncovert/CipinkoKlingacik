@@ -5,13 +5,13 @@ Use [DESIGN.md](DESIGN.md), not the superseded audit's generic requirements.
 
 ## A. Required before board ordering
 
-C3 static evidence: full schematic, local footprints and exact-part selections;
+C4 static evidence: full schematic, local footprints and exact-part selections;
 **ERC 0/0, strict full PCB DRC 0 violations / 0 unconnected / 0 parity issues**;
 completed routing/return-stitch review; prototype exports and regression tests.
 These do **not** close the combined sourcing/layout/bench gates below. See
 [hardware/PCB_REVIEW.md](../hardware/PCB_REVIEW.md).
 
-**Independent C3 review:** [REVIEW.md](REVIEW.md) records the verified corrections
+**Independent review:** [REVIEW.md](REVIEW.md) records the verified corrections
 and accepted prototype limits. No physical test has been closed by a design-file
 review or the corrected design files.
 
@@ -37,18 +37,20 @@ Completed static-file checks (not bench qualification):
       regulator dropout and startup; analog rails must remain within mux limits.
 - [ ] Check reservoir effective C (47–125 µF each), AP2112 stability, foldback,
       startup, EN wiring, reverse paths and shared-input power-down behavior.
-- [ ] Check both 15 Ω input resistors, minimum resistance, ≥1 W rating/derating
-      and pulse curve;
-      confirm the initial 226 mA bound is below actual permitted switch operation.
+- [ ] Check exact Yageo 15 Ω / 1% / **2 W** limiter SKU, minimum resistance/TCR,
+      ≥1 W actual-PCB thermal capability and derating, with no pulse-overload
+      credit. Confirm the 25°C ~226 mA and TCR-envelope ~230 mA bounds remain
+      below actual permitted switch operation.
 - [ ] Check USB auxiliary fuse drop/current/hold/trip behavior, total demand and
       target-rail enable after USB configuration; fuse is not a precision limiter.
 - [x] Draw schematic/netlist and unique-reference BOM; explicitly wire every
       supply, enable, default pull, unused input and bypass capacitor.
-- [ ] Verify different AP2112/TLV704 pinouts, actual XSON6 mux footprint, Pico 2
-      socket geometry, USB overhang and chosen connector/PCB thickness.
+- [ ] Verify revised TPS7A2036 **IN1/GND2/EN3/NC4/OUT5**, EN=HOLD_IN,
+      C10/C11 input/output bypass and ground returns; **do not fit the old TLV704**.
+      Check XSON6 mux footprint, Pico 2 sockets, USB and PCB/connector mechanics.
 - [ ] Review local gate loop, whole target/cable fault loop, continuous ground
       reference, Kelvin pads and absence of long pulse-node branches.
-      C3 Kelvin option: R20=0.1 Ω four-terminal, R39 removed when R20 fitted;
+      C4 Kelvin option: R20=0.1 Ω four-terminal, R39 removed when R20 fitted;
       differential measurement at TP7/TP8. Never ground either high-side sense pad.
 - [x] Run ERC/DRC/parity; all PCB DRC checks enabled, no exclusions. The four
       standard ignored ERC checks are explicitly listed in hardware/README.md.
@@ -78,6 +80,9 @@ termination as a rail load. Do not lift a scope protective-earth connection.
       Capture GP4, RAILS_EN and both rail reservoirs with TARGET_VDD; include the
       AP2112 EN-low discharge path (60 Ω typical with valid input power), not
       just R21. Disconnect target before deliberate regulator shutdown.
+      Include TPS7A20 P-version active discharge at EN-low/UVLO; it is not reverse
+      blocking. Verify the 4.2→3.9 V / 141 ms retention estimate against actual
+      leakage/current/light-load output tolerance, not only datasheet typicals.
 - [ ] Measure total USB startup/normal/fault demand; record source capability and
       fuse behavior. Include reservoir charging and actual Pico demand.
 - [ ] With measured C=1 nF, 10 nF, 100 nF, and 1 µF, measure both transition

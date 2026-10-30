@@ -1,4 +1,4 @@
-# C3 review and provenance
+# C4 review and provenance
 
 The current design underwent repeated independent **DeepSeek V4.1 Flash 1017
 (Ollama)** reviews, primary verification of manufacturer evidence, justified
@@ -40,11 +40,18 @@ No remote routing service is needed to open or maintain this release.
 Manufacturer source links are in [SOURCES.md](../reference/SOURCES.md); KiCad
 asset provenance/licences are retained in [vendor/](../hardware/vendor/README.md).
 
-The release rename to **ČipinkoKlingáčik** changes filenames, library identifiers,
-titles and silkscreen branding, not the electrical design. Stable schematic/PCB
+The historical C3 release rename to **ČipinkoKlingáčik** changed filenames, library identifiers,
+titles and silkscreen branding, not the electrical design at that rename step. Stable schematic/PCB
 UUIDs, contract, component positions/pads, tracks, vias and outline were compared
 with a pre-rename snapshot. The snapshot/research diaries are retained outside
 the public tree, not bundled as obsolete alternative designs.
+
+The later **C4 / alpha.2** sourcing/DFM revision is not a rename-only change:
+TPS7A20 replaces TLV704 with a different pinout, C10/C11 move, local U6 routing
+changes, and C4/C7/C9/C11 ground vias move out of solder openings. F1/R15/R16 and
+eight Basic passives have reviewed replacement selections. See [JLCPCB.md](JLCPCB.md)
+and [PCB_REVIEW.md](../hardware/PCB_REVIEW.md); the historical preservation
+comparison does not assert that C4 is electrically/geometrically identical to C3.
 
 All current reports/manifests bind evidence to the actual sources; a green test
 does not replace current measurement or supplier approval. Remaining gates are

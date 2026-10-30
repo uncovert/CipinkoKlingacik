@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate C3, run strict KiCad ERC/PCB checks and test exported connectivity.
+"""Regenerate C4, run strict KiCad ERC/PCB checks and test exported connectivity.
 
 Use a venv with requirements-hardware.txt. Requires KiCad 10 CLI (native or
 Flatpak) and pdftoppm. PCB checks reject incomplete routing; they do NOT
@@ -45,7 +45,7 @@ def main():
         else:
             run(sys.executable, "scripts/check_pcb.py")
     run(sys.executable, "-m", "unittest", "discover", "-s", "tests", "-v")
-    print("C3 strict static checks passed. Hardware qualification and supplier approval remain open.")
+    print("C4 strict static checks passed. Hardware qualification and supplier approval remain open.")
 
 
 if __name__ == "__main__":

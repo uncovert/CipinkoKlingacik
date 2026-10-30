@@ -24,6 +24,48 @@ def footprint_pads(board):
     return result
 
 
+def via_smt_clearance_violations(board, clearance=0.1):
+    """Conservative annulus-to-pad/mask/paste clearance for fitted SMT parts.
+
+    Uses enclosing rectangles (including rotated pads and positive local mask/
+    paste margins), so rounded corners never hide a possible solder opening.
+    DNP parts and probe-only PCB features are not baseline solder joints.
+    This is a baseline DFM guard, not a full soldermask/process simulation.
+    """
+    positions = footprint_pads(board)
+    violations = []
+    for fp in children(board, "footprint"):
+        props = {p[1]: p[2] for p in children(fp, "property")}
+        if props.get("Assembly") != "SMT" or "dnp" in child(fp, "attr"):
+            continue
+        ref = props["Reference"]
+        for pad in children(fp, "pad"):
+            if pad[2] != "smd":
+                continue
+            point, _ = positions[(ref, pad[1])]
+            w, h = map(float, child(pad, "size")[1:3])
+            at = child(pad, "at")
+            # Pad angles in a board file are absolute, not relative to the FP.
+            theta = math.radians(float(at[3]) if len(at) > 3 else 0)
+            margin = 0.0
+            for owner in (child(board, "setup"), fp, pad):
+                for key in ("pad_to_mask_clearance", "solder_mask_margin", "solder_paste_margin"):
+                    for value in children(owner, key):
+                        margin = max(margin, float(value[1]))
+            for via in children(board, "via"):
+                x, y = map(float, child(via, "at")[1:3])
+                dx, dy = x - point[0], y - point[1]
+                local_x = dx * math.cos(theta) - dy * math.sin(theta)
+                local_y = dx * math.sin(theta) + dy * math.cos(theta)
+                distance = math.hypot(max(abs(local_x) - w / 2 - margin, 0),
+                                      max(abs(local_y) - h / 2 - margin, 0))
+                gap = distance - float(child(via, "size")[1]) / 2
+                if gap < clearance - 1e-7:
+                    violations.append({"pad": f"{ref}.{pad[1]}", "via": (x, y),
+                                       "annulus_gap_mm": round(gap, 6)})
+    return violations
+
+
 def track_path_mm(board, start, end):
     pads = footprint_pads(board)
     a, net = pads[start]

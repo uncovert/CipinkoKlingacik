@@ -1,15 +1,15 @@
-# ČipinkoKlingáčik C3 — assembly visuals
+# ČipinkoKlingáčik C4 — assembly visuals
 
 Illustrative KiCad raytraces of the checked baseline layout, **not photographs,
 fabrication files or approved mechanical envelopes**.
 
-![Assembly overview](cipinkoklingacik-C3-overview.png)
+![Assembly overview](cipinkoklingacik-C4-overview.png)
 
-- [Assembled isometric](cipinkoklingacik-C3-isometric.png)
-- [Top](cipinkoklingacik-C3-top.png)
-- [Underside](cipinkoklingacik-C3-bottom.png) — viewed from below, mirrored versus top
-- [Module removed](cipinkoklingacik-C3-module-removed.png) — sockets remain fitted
-- [Four-page PDF](cipinkoklingacik-C3-assembly-views.pdf)
+- [Assembled isometric](cipinkoklingacik-C4-isometric.png)
+- [Top](cipinkoklingacik-C4-top.png)
+- [Underside](cipinkoklingacik-C4-bottom.png) — viewed from below, mirrored versus top
+- [Module removed](cipinkoklingacik-C4-module-removed.png) — sockets remain fitted
+- [Four-page PDF](cipinkoklingacik-C4-assembly-views.pdf)
 
 The baseline includes **68 SMT + seven hand-fit references**, with R39 fitted,
 ARM open, and U8/C18/JP3–JP5/R20/R31/R40/R41 empty. No screws/standoffs or cables

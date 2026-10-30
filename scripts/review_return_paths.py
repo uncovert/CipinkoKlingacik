@@ -107,7 +107,7 @@ def main():
     reviewed = previous.get("added_ground_vias_mm", []) + added
     current = {tuple(round(n, 4) for n in g) for g in ground_vias}
     new_ground = sorted({tuple(round(n, 4) for n in g) for g in reviewed} & current)
-    review = {"revision": "C3", "method": "Geometric return-stitch review, not field simulation",
+    review = {"revision": "C4", "method": "Geometric return-stitch review, not field simulation",
               "board_sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
               "added_ground_vias_mm": new_ground, "signal_transitions": transitions,
               "limitations": ["No measured loop inductance, pulse response or thermal rating",

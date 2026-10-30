@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "10.0.7"
     },
-    "CreationDate": "2026-10-30T12:04:11+01:00"
+    "CreationDate": "2026-10-30T13:48:12+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "cipinkoklingacik",
       "GUID": "63697069-6e6b-46f6-9b6c-696e67616369",
-      "Revision": "C3"
+      "Revision": "C4"
     },
     "Size": {
       "X": 100.05,

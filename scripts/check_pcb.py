@@ -33,8 +33,12 @@ def main():
     report = json.loads((HW / "cipinkoklingacik-drc.json").read_text())
     if report["ignored_checks"]:
         raise SystemExit(f"Unreviewed ignored DRC checks: {report['ignored_checks']}")
+    # Refresh ERC here as well: a standalone PCB/export run must never bind a
+    # green ERC report belonging to an older schematic.
+    run(*cli, "sch", "erc", "hardware/cipinkoklingacik.kicad_sch", "-o",
+        "hardware/cipinkoklingacik-erc.rpt", "--severity-all", "--exit-code-violations")
     status = {
-        "revision": "C3", "fabrication_release": False,
+        "revision": "C4", "fabrication_release": False,
         "design_stage": "engineering-prototype candidate",
         "routing_complete": not bool(report["unconnected_items"]),
         "geometry_violations": len(report["violations"]),
@@ -44,6 +48,7 @@ def main():
         "schematic_sha256": digest(HW / "cipinkoklingacik.kicad_sch"),
         "project_sha256": digest(HW / "cipinkoklingacik.kicad_pro"),
         "drc_sha256": digest(HW / "cipinkoklingacik-drc.json"),
+        "erc_sha256": digest(HW / "cipinkoklingacik-erc.rpt"),
         "hardware_qualification": "NOT PERFORMED",
     }
     (HW / "cipinkoklingacik-pcb-status.json").write_text(json.dumps(status, indent=2) + "\n")
@@ -55,8 +60,12 @@ def main():
 
     # Review list from actual board, not a claimed assembly-house CPL.
     pcb = loads((HW / "cipinkoklingacik.kicad_pcb").read_text())
+    from pcb_geometry import via_smt_clearance_violations
+    violations = via_smt_clearance_violations(pcb)
+    if violations:
+        raise SystemExit(f"Baseline SMT via/pad solder-opening clearance failed: {violations}")
     with (HW / "cipinkoklingacik-placement.csv").open("w", newline="") as stream:
-        writer = csv.writer(stream)
+        writer = csv.writer(stream, lineterminator="\n")
         writer.writerow(["Reference", "MPN", "X_mm", "Y_mm", "Rotation_deg", "Layer", "DNP", "Status"])
         for fp in children(pcb, "footprint"):
             props = {f[1]: f[2] for f in children(fp, "property")}
@@ -75,7 +84,13 @@ def main():
         "--layers", "B.Cu,Edge.Cuts", "--mode-single", "--fit-page-to-board", "--exclude-drawing-sheet")
     for side in ("top", "bottom"):
         cairosvg.svg2png(url=str(HW / f"cipinkoklingacik-pcb-{side}.svg"),
-                        write_to=str(HW / f"cipinkoklingacik-pcb-{side}.png"), output_width=1800)
+                         write_to=str(HW / f"cipinkoklingacik-pcb-{side}.png"), output_width=1800)
+    status["review_artifacts_sha256"] = {
+        name: digest(HW / name) for name in (
+            "cipinkoklingacik-pcb-top.svg", "cipinkoklingacik-pcb-top.png",
+            "cipinkoklingacik-pcb-bottom.svg", "cipinkoklingacik-pcb-bottom.png",
+            "cipinkoklingacik-pcb-review.pdf")}
+    (HW / "cipinkoklingacik-pcb-status.json").write_text(json.dumps(status, indent=2) + "\n")
     if report["unconnected_items"]:
         raise SystemExit("Routing is INCOMPLETE. Strict PCB check failed (no fabrication release).")
 

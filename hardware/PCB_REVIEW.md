@@ -1,4 +1,4 @@
-# C3 PCB review — ČipinkoKlingáčik
+# C4 PCB review — ČipinkoKlingáčik
 
 **Design-file review has converged for supervised engineering prototypes.**
 Firmware, supplier approval and all physical qualification remain outstanding.
@@ -12,8 +12,9 @@ This review is not a production release or a measured pulse/thermal rating.
 - Reports are hash-bound in [PCB status](cipinkoklingacik-pcb-status.json) and
   the [manufacturing manifest](manufacturing/manifest.json).
 - Full pipeline and dependency-free regression checks cover pin/pad/net identity,
-  native DNP, bypass locality, ground transitions, exports, coordinates, drills,
-  stencil population and visual freshness. Four ERC defaults are disclosed in
+  native DNP, bypass locality, ground transitions, exports, drill/paste coordinates,
+  via-to-SMT solder-opening clearance and visual freshness. Fresh ERC and 2D
+  review hashes are bound alongside DRC. Four ERC defaults are disclosed in
   [hardware/README.md](README.md).
 
 ![Top copper and reference overlay](cipinkoklingacik-pcb-top.png)
@@ -34,12 +35,21 @@ This review is not a production release or a measured pulse/thermal rating.
   0.4 mm wide**; gate, drain and Kelvin signal nets are top-side and via-free.
   Full gate-current return also includes bypass/driver GND/Q1 source copper.
 - Reviewed bypass trace paths: U4/C5 and U5/C8 **3.86 mm**, U6 input/C10
-  **2.96 mm**, U6 output/C11 **3.83 mm**, U2/C13 **2.15 mm**. C14 is distributed
+  **2.26 mm**, U6 output/C11 **3.35 mm**, U2/C13 **2.15 mm**. C14 is distributed
   additional bypass (~7.33 mm), not adjacent bulk. These are not full-loop lengths.
 - Both layers have filled GND pours. B.Cu contains signal routing and is **not
   an uninterrupted plane**. All **42 signal transitions** have a GND via within
   2 mm (observed max ~1.9 mm); **38 review-added stitches** are retained in the
   [return-review record](cipinkoklingacik-return-review.json).
+- Sourcing revision: U6 is TPS7A2036P, IN1 and EN3=HOLD_IN, GND2/NC4/OUT5,
+  with C10 moved above-left and C11 to the right, pad1 toward U6. Three explicit local ground
+  returns replace the old U6 return (134 total vias, +2 net). Other functional
+  blocks, outline and population are preserved. No DRC rules were relaxed.
+- **C4 DFM fix:** C4/C7 GND vias at (62.95,10)/(62.95,29), C9 at (61.95,44)
+  and C11 at (71.25,45.2) lie outside their solder pads/openings. The minimum
+  annulus-to-opening gap at these four sites is **0.125 mm** (C11); the baseline
+  guard requires ≥0.10 mm and rejects all four former via-in-pad locations.
+  Vias remain 0.6/0.3 mm, tented, not filled/capped; 134 total vias are retained.
 - Socket/SMT ground pads use solid connections; five THT connector ground pads
   retain thermals. Assembly process must account for copper thermal mass.
 
@@ -66,6 +76,7 @@ prototypes and execute [VALIDATION.md](../docs/VALIDATION.md). In particular:
 driver VDD **4.90–5.25 V**, power-state/retention/back-power waveforms, both rails'
 short/foldback/thermal behavior and actual glitch/trigger/gate waveforms.
 
-The published name/library migration changes titles and artwork only; electrical
+The historical C3 name/library migration changed titles and artwork only; electrical
 connectivity, component UUIDs, placement, pad geometry, tracks, vias and outline
-were compared with the pre-rename design. See [REVIEW.md](../docs/REVIEW.md).
+were compared with the pre-rename design at that step, not across the later C4
+sourcing/DFM changes. See [REVIEW.md](../docs/REVIEW.md).

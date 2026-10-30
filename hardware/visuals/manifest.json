@@ -1,5 +1,5 @@
 {
-  "source_board_sha256": "57e30dfc570bdc0e43d36096923e3169187b0db4840fec9d70367bdbd46c96a8",
+  "source_board_sha256": "e9bb56ae7312ffaf65c7c460f86121ce61bdbebf510c45c1fd2329b8582d4720",
   "source_project_sha256": "ec8ad623e6599c5c1f016df9f6e8a333e245cb6c90a9bac091475ee1c37d2308",
   "population": "baseline only; JP2 ARM open",
   "hidden_dnp_refs": [
@@ -119,29 +119,29 @@
   ],
   "renderer": "KiCad 10 pcb render, high-quality raytrace; Pillow captions",
   "artifacts": {
-    "cipinkoklingacik-C3-assembly-views.pdf": {
-      "sha256": "e95071c4daeb65ffa2e58a91ba34e02378ea230ffd0fd4545f3838bf4f995687",
-      "bytes": 1059296
+    "cipinkoklingacik-C4-assembly-views.pdf": {
+      "sha256": "92d85694bb83473d4c11cbc4ffad7586bf72f499335dc481ccf94b209330dc32",
+      "bytes": 1060508
     },
-    "cipinkoklingacik-C3-bottom.png": {
-      "sha256": "7c7f4339468efb2c6b45292583456b3754ff7943c260610f6e72cb5e52e31748",
-      "bytes": 295642
+    "cipinkoklingacik-C4-bottom.png": {
+      "sha256": "df4ed607c5d7bbb2bf0b67caf926859806aa1146ca4096624b54bc205c55fd7f",
+      "bytes": 295614
     },
-    "cipinkoklingacik-C3-isometric.png": {
-      "sha256": "124f4e2e236498b58103c92df298eee08434d4b318d2e9737be0e85fcc5a0d8d",
-      "bytes": 1780259
+    "cipinkoklingacik-C4-isometric.png": {
+      "sha256": "bc00256f0cf8c8cec590272598852747717efe5d4c650c9c8e0cabe517de0bdb",
+      "bytes": 1780650
     },
-    "cipinkoklingacik-C3-module-removed.png": {
-      "sha256": "c00505ad9d967b292c59465a83c62905ada843cdea0e6652fcf550f699731eaf",
-      "bytes": 1704790
+    "cipinkoklingacik-C4-module-removed.png": {
+      "sha256": "9b70658bf28a37bde54d68f63cc0f32ce97207ff61aad55129b03f46c8e4aa1f",
+      "bytes": 1706345
     },
-    "cipinkoklingacik-C3-overview.png": {
-      "sha256": "634e4926faa17b6666fecab06628be111feb3344517ada98c7d0952db0c31db9",
-      "bytes": 1621341
+    "cipinkoklingacik-C4-overview.png": {
+      "sha256": "31f7ac02bbe0acad3cde6071977ef2d6a64c0151c267484c4722d15b52f4ae69",
+      "bytes": 1622223
     },
-    "cipinkoklingacik-C3-top.png": {
-      "sha256": "e270c0f9869caed872c8f0a8c8c414640b123d3e66a62929c01af0ae11b66212",
-      "bytes": 652704
+    "cipinkoklingacik-C4-top.png": {
+      "sha256": "fee697997da6c6f6af5d64a2250055ba569283a0285a7f4b797ad275cded45da",
+      "bytes": 652660
     }
   }
 }

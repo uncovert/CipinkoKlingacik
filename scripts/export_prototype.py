@@ -15,6 +15,8 @@ import sys
 import tempfile
 import zipfile
 
+from export_jlcpcb import SNAPSHOT, export as export_jlcpcb
+
 ROOT = Path(__file__).resolve().parent.parent
 HW = ROOT / "hardware"
 OUT = HW / "manufacturing"
@@ -43,7 +45,7 @@ def main():
         (OUT / subdirectory).mkdir(parents=True, exist_ok=True)
     for name, selected in (("baseline-smt-bom.csv", smt), ("baseline-hand-fit.csv", hand)):
         with (OUT / "assembly" / name).open("w", newline="") as stream:
-            writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+            writer = csv.DictWriter(stream, fieldnames=list(rows[0]), lineterminator="\n")
             writer.writeheader()
             writer.writerows(selected)
     run(*cli, "pcb", "export", "pos", "hardware/cipinkoklingacik.kicad_pcb", "-o",
@@ -52,6 +54,7 @@ def main():
     with (OUT / "assembly" / "baseline-smt-pos.csv").open() as stream:
         positions = list(csv.DictReader(stream))
     assert {r["Ref"] for r in positions} == {r["Reference"] for r in smt}, "BOM/position population mismatch"
+    export_jlcpcb(smt, positions, OUT / "assembly")
     run(*cli, "pcb", "export", "gerbers", "hardware/cipinkoklingacik.kicad_pcb", "-o", str(OUT / "gerbers"),
         "--layers", "F.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts", "--check-zones")
     run(*cli, "pcb", "export", "drill", "hardware/cipinkoklingacik.kicad_pcb", "-o", str(OUT / "gerbers"),
@@ -67,7 +70,7 @@ def main():
             "--layers", "F.Paste")
 
     with (OUT / "assembly" / "accessories-candidates.csv").open("w", newline="") as stream:
-        writer = csv.writer(stream)
+        writer = csv.writer(stream, lineterminator="\n")
         writer.writerow(["Purpose", "MPN", "Manufacturer", "Qty", "Fit_policy", "Approval"])
         for row in (
             ("Pico module headers", "TSW-120-07-G-S", "Samtec", 2, "Hand-fit to SC1631", "Mating/height approval pending"),
@@ -79,7 +82,7 @@ def main():
         ):
             writer.writerow(row)
 
-    archive = OUT / "cipinkoklingacik-C3-bare-pcb.zip"
+    archive = OUT / "cipinkoklingacik-C4-bare-pcb.zip"
     files = sorted((OUT / "gerbers").glob("*"))
     with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as z:
         for path in files:
@@ -89,19 +92,22 @@ def main():
         z.write(ROOT / "NOTICE.md", "NOTICE.md")
     artifacts = sorted(p for p in OUT.rglob("*") if p.is_file() and p.name != "manifest.json")
     manifest = {
-        "revision": "C3", "purpose": "Engineering-prototype quote/review data; NOT production approval",
+        "revision": "C4", "purpose": "Engineering-prototype quote/review data; NOT production approval",
         "fabrication_release": False, "hardware_qualification": "NOT PERFORMED",
         "board_sha256": sha(HW / "cipinkoklingacik.kicad_pcb"),
         "schematic_sha256": sha(HW / "cipinkoklingacik.kicad_sch"),
         "project_sha256": sha(HW / "cipinkoklingacik.kicad_pro"),
         "drc_sha256": sha(HW / "cipinkoklingacik-drc.json"),
+        "erc_sha256": sha(HW / "cipinkoklingacik-erc.rpt"),
+        "pcb_status_sha256": sha(HW / "cipinkoklingacik-pcb-status.json"),
+        "jlcpcb_snapshot_sha256": sha(SNAPSHOT),
         "baseline_smt_refs": sorted(r["Reference"] for r in smt),
         "baseline_hand_fit_refs": sorted(r["Reference"] for r in hand),
         "dnp_refs": sorted(r["Reference"] for r in rows if r["DNP"] == "yes"),
         "artifacts": {str(p.relative_to(OUT)): {"sha256": sha(p), "bytes": p.stat().st_size} for p in artifacts},
     }
     (OUT / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
-    print(f"C3 prototype data exported: {len(smt)} SMT parts, {len(hand)} hand-fit references. Supplier sign-off still required.")
+    print(f"C4 prototype data exported: {len(smt)} SMT parts, {len(hand)} hand-fit references. Supplier sign-off still required.")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 Drill report for cipinkoklingacik.kicad_pcb
-Created on 2026-10-30T12:04:09
+Created on 2026-10-30T13:48:10
 
 Copper Layer Stackup:
     =============================================================
@@ -10,10 +10,10 @@ Copper Layer Stackup:
 Drill file 'cipinkoklingacik-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.300mm  0.0118"  (132 holes))
+    T1  0.300mm  0.0118"  (134 holes))
     T2  1.000mm  0.0394"  (59 holes))
 
-    Total plated holes count 191
+    Total plated holes count 193
 
 
 Drill file 'cipinkoklingacik-NPTH.drl' contains

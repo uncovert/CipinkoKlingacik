@@ -23,7 +23,12 @@ Copyright © 2026 ČipinkoKlingáčik contributors, for original project materia
 Modification notice, 2026-10-30: public-release preparation renamed the project
 and local libraries/artwork to ČipinkoKlingáčik, consolidated current documentation
 and removed superseded attempts/intermediates. Electrical geometry/connectivity
-and stable component UUIDs were preserved. Hardware revision remains C3.
+and stable component UUIDs were preserved **at that C3 rename step**.
+
+Subsequent modification notice, 2026-10-30: **C4 / alpha.2** changes U6 to the
+TPS7A20 pinout with local routing/bypass placement changes, updates sourcing and
+moves C4/C7/C9/C11 ground vias outside solder openings. The earlier rename-only
+preservation statement is historical, not a claim that C4 is identical to C3.
 
 This is an **unqualified engineering prototype**, supplied as-is without warranty.
 No production, safety, pulse-performance, IP novelty or device-protection-bypass

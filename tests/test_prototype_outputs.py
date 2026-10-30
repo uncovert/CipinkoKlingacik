@@ -2,6 +2,8 @@
 import csv
 import hashlib
 import json
+import math
+from collections import Counter
 from pathlib import Path
 import re
 import sys
@@ -13,6 +15,7 @@ HW = ROOT / "hardware"
 OUT = HW / "manufacturing"
 sys.path.insert(0, str(ROOT / "scripts"))
 from kicad_sexpr import loads, children, child
+from pcb_geometry import footprint_pads
 
 
 class PrototypeOutputTests(unittest.TestCase):
@@ -27,7 +30,9 @@ class PrototypeOutputTests(unittest.TestCase):
         for key, name in (("board_sha256", "cipinkoklingacik.kicad_pcb"),
                           ("schematic_sha256", "cipinkoklingacik.kicad_sch"),
                           ("project_sha256", "cipinkoklingacik.kicad_pro"),
-                          ("drc_sha256", "cipinkoklingacik-drc.json")):
+                          ("drc_sha256", "cipinkoklingacik-drc.json"),
+                          ("erc_sha256", "cipinkoklingacik-erc.rpt"),
+                          ("pcb_status_sha256", "cipinkoklingacik-pcb-status.json")):
             self.assertEqual(self.manifest[key], hashlib.sha256((HW / name).read_bytes()).hexdigest())
         for name, item in self.manifest["artifacts"].items():
             data = (OUT / name).read_bytes()
@@ -72,6 +77,24 @@ class PrototypeOutputTests(unittest.TestCase):
         self.assertIn("%MOMM*%", text)
         self.assertTrue(text.rstrip().endswith("M02*"))
 
+    def test_baseline_paste_flash_centres_match_every_selected_pad(self):
+        expected = {}
+        pads = footprint_pads(self.board)
+        for ref in self.manifest["baseline_smt_refs"]:
+            expected[ref] = Counter((round(x, 6), round(-y, 6))
+                                    for (name, _), ((x, y), _) in pads.items() if name == ref)
+        actual = {}
+        ref = None
+        for line in (OUT / "stencil/cipinkoklingacik-F_Paste.gtp").read_text().splitlines():
+            attr = re.fullmatch(r"%TO\.C,([^*]+)\*%", line)
+            if attr:
+                ref = attr[1]
+            flash = re.fullmatch(r"X(-?\d+)Y(-?\d+)D03\*", line)
+            if flash:
+                self.assertIsNotNone(ref)
+                actual.setdefault(ref, Counter())[(int(flash[1]) / 1e6, int(flash[2]) / 1e6)] += 1
+        self.assertEqual(actual, expected)
+
     def test_drill_inventory_matches_board_and_separates_npth(self):
         pth, npth = 0, 0
         for fp in self.fps.values():
@@ -89,12 +112,36 @@ class PrototypeOutputTests(unittest.TestCase):
         self.assertIn("C0.300", plated)
         self.assertIn("C2.700", unplated)
 
+    def test_drilled_hole_coordinates_match_the_actual_board(self):
+        for kind, filename in (("thru_hole", "PTH"), ("np_thru_hole", "NPTH")):
+            expected = []
+            for ref, fp in self.fps.items():
+                for pad in children(fp, "pad"):
+                    if pad[2] != kind:
+                        continue
+                    at = child(fp, "at")
+                    angle = math.radians(float(at[3]) if len(at) > 3 else 0)
+                    x, y = map(float, child(pad, "at")[1:3])
+                    point = (float(at[1]) + x * math.cos(angle) + y * math.sin(angle),
+                             float(at[2]) - x * math.sin(angle) + y * math.cos(angle))
+                    expected.append(point)
+            if kind == "thru_hole":
+                expected.extend(tuple(map(float, child(v, "at")[1:3])) for v in children(self.board, "via"))
+            text = (OUT / f"gerbers/cipinkoklingacik-{filename}.drl").read_text()
+            actual = [(float(x), -float(y)) for x, y in re.findall(r"^X([-\d.]+)Y([-\d.]+)", text, re.M)]
+            self.assertEqual(len(expected), len(actual))
+            for point in expected:
+                closest = min(actual, key=lambda p: math.dist(point, p))
+                self.assertLessEqual(math.dist(point, closest), 0.0015)  # Excellon has 0.001 mm resolution.
+                actual.remove(closest)
+            self.assertEqual(actual, [])
+
     def test_bare_pcb_archive_and_outline(self):
         expected = {p.name: p.read_bytes() for p in (OUT / "gerbers").glob("*") if p.is_file()}
         expected["LICENSE"] = (ROOT / "LICENSE").read_bytes()
         expected["LICENSE-MIT"] = (ROOT / "LICENSE-MIT").read_bytes()
         expected["NOTICE.md"] = (ROOT / "NOTICE.md").read_bytes()
-        with zipfile.ZipFile(OUT / "cipinkoklingacik-C3-bare-pcb.zip") as z:
+        with zipfile.ZipFile(OUT / "cipinkoklingacik-C4-bare-pcb.zip") as z:
             self.assertEqual(set(z.namelist()), set(expected))
             for name, data in expected.items():
                 self.assertEqual(z.read(name), data)

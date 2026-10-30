@@ -2,16 +2,16 @@
 	(version "E")
 	(design
 		(source "hardware/cipinkoklingacik.kicad_sch")
-		(date "2026-10-30T12:03:55")
+		(date "2026-10-30T13:47:53")
 		(tool "Eeschema 10.0.7")
 		(sheet
 			(number "1")
 			(name "/")
 			(tstamps "/")
 			(title_block
-				(title "ČipinkoKlingáčik C3 - engineering prototype")
+				(title "ČipinkoKlingáčik C4 - engineering prototype")
 				(company "ČipinkoKlingáčik contributors")
-				(rev "C3")
+				(rev "C4")
 				(date "2026-10-30")
 				(source "cipinkoklingacik.kicad_sch")
 				(comment
@@ -69,6 +69,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C97954")
+				(field
 					(name "Footprint") "CipinkoKlingacik:C_1206_3216Metric")
 				(field
 					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
@@ -96,6 +98,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C97954")
 			)
 			(property
 				(name "Sheetname")
@@ -136,20 +142,22 @@
 			(ref "C2")
 			(value "100nF")
 			(footprint "CipinkoKlingacik:C_0805_2012Metric")
-			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf")
 			(fields
 				(field
-					(name "MPN") "GRM21BR71H104KA01L")
+					(name "MPN") "CC0805KRX7R9BB104")
 				(field
-					(name "Manufacturer") "Murata")
+					(name "Manufacturer") "Yageo")
 				(field
 					(name "Requirement") "100 nF, 50 V, X7R, 10%")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C49678")
+				(field
 					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf")
 				(field
 					(name "Description")
 				)
@@ -161,11 +169,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "GRM21BR71H104KA01L")
+				(value "CC0805KRX7R9BB104")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Murata")
+				(value "Yageo")
 			)
 			(property
 				(name "Requirement")
@@ -174,6 +182,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
 			)
 			(property
 				(name "Sheetname")
@@ -225,6 +237,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C77079")
+				(field
 					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
 				(field
 					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
@@ -252,6 +266,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C77079")
 			)
 			(property
 				(name "Sheetname")
@@ -303,6 +321,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C128532")
+				(field
 					(name "Footprint") "CipinkoKlingacik:CP_Elec_6.3x5.8")
 				(field
 					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf")
@@ -330,6 +350,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C128532")
 			)
 			(property
 				(name "Sheetname")
@@ -381,6 +405,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C77079")
+				(field
 					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
 				(field
 					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
@@ -408,6 +434,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C77079")
 			)
 			(property
 				(name "Sheetname")
@@ -459,6 +489,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C77079")
+				(field
 					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
 				(field
 					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
@@ -486,6 +518,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C77079")
 			)
 			(property
 				(name "Sheetname")
@@ -537,6 +573,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C128532")
+				(field
 					(name "Footprint") "CipinkoKlingacik:CP_Elec_6.3x5.8")
 				(field
 					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf")
@@ -564,6 +602,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C128532")
 			)
 			(property
 				(name "Sheetname")
@@ -615,6 +657,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C77079")
+				(field
 					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
 				(field
 					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
@@ -642,6 +686,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C77079")
 			)
 			(property
 				(name "Sheetname")
@@ -693,6 +741,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C128532")
+				(field
 					(name "Footprint") "CipinkoKlingacik:CP_Elec_6.3x5.8")
 				(field
 					(name "Datasheet") "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf")
@@ -720,6 +770,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C128532")
 			)
 			(property
 				(name "Sheetname")
@@ -771,6 +825,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C77079")
+				(field
 					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
 				(field
 					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
@@ -798,6 +854,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C77079")
 			)
 			(property
 				(name "Sheetname")
@@ -849,6 +909,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C77079")
+				(field
 					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
 				(field
 					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
@@ -876,6 +938,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C77079")
 			)
 			(property
 				(name "Sheetname")
@@ -916,20 +982,22 @@
 			(ref "C12")
 			(value "100nF")
 			(footprint "CipinkoKlingacik:C_0805_2012Metric")
-			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf")
 			(fields
 				(field
-					(name "MPN") "GRM21BR71H104KA01L")
+					(name "MPN") "CC0805KRX7R9BB104")
 				(field
-					(name "Manufacturer") "Murata")
+					(name "Manufacturer") "Yageo")
 				(field
 					(name "Requirement") "100 nF, 50 V, X7R, 10%")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C49678")
+				(field
 					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf")
 				(field
 					(name "Description")
 				)
@@ -941,11 +1009,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "GRM21BR71H104KA01L")
+				(value "CC0805KRX7R9BB104")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Murata")
+				(value "Yageo")
 			)
 			(property
 				(name "Requirement")
@@ -954,6 +1022,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
 			)
 			(property
 				(name "Sheetname")
@@ -994,20 +1066,22 @@
 			(ref "C13")
 			(value "100nF")
 			(footprint "CipinkoKlingacik:C_0805_2012Metric")
-			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf")
 			(fields
 				(field
-					(name "MPN") "GRM21BR71H104KA01L")
+					(name "MPN") "CC0805KRX7R9BB104")
 				(field
-					(name "Manufacturer") "Murata")
+					(name "Manufacturer") "Yageo")
 				(field
 					(name "Requirement") "100 nF, 50 V, X7R, 10%")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C49678")
+				(field
 					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf")
 				(field
 					(name "Description")
 				)
@@ -1019,11 +1093,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "GRM21BR71H104KA01L")
+				(value "CC0805KRX7R9BB104")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Murata")
+				(value "Yageo")
 			)
 			(property
 				(name "Requirement")
@@ -1032,6 +1106,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
 			)
 			(property
 				(name "Sheetname")
@@ -1083,6 +1161,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C77079")
+				(field
 					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
 				(field
 					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
@@ -1110,6 +1190,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C77079")
 			)
 			(property
 				(name "Sheetname")
@@ -1150,20 +1234,22 @@
 			(ref "C16")
 			(value "100nF")
 			(footprint "CipinkoKlingacik:C_0805_2012Metric")
-			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf")
 			(fields
 				(field
-					(name "MPN") "GRM21BR71H104KA01L")
+					(name "MPN") "CC0805KRX7R9BB104")
 				(field
-					(name "Manufacturer") "Murata")
+					(name "Manufacturer") "Yageo")
 				(field
 					(name "Requirement") "100 nF, 50 V, X7R, 10%")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C49678")
+				(field
 					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf")
 				(field
 					(name "Description")
 				)
@@ -1175,11 +1261,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "GRM21BR71H104KA01L")
+				(value "CC0805KRX7R9BB104")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Murata")
+				(value "Yageo")
 			)
 			(property
 				(name "Requirement")
@@ -1188,6 +1274,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
 			)
 			(property
 				(name "Sheetname")
@@ -1228,20 +1318,22 @@
 			(ref "C17")
 			(value "100nF")
 			(footprint "CipinkoKlingacik:C_0805_2012Metric")
-			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf")
 			(fields
 				(field
-					(name "MPN") "GRM21BR71H104KA01L")
+					(name "MPN") "CC0805KRX7R9BB104")
 				(field
-					(name "Manufacturer") "Murata")
+					(name "Manufacturer") "Yageo")
 				(field
 					(name "Requirement") "100 nF, 50 V, X7R, 10%")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C49678")
+				(field
 					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf")
 				(field
 					(name "Description")
 				)
@@ -1253,11 +1345,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "GRM21BR71H104KA01L")
+				(value "CC0805KRX7R9BB104")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Murata")
+				(value "Yageo")
 			)
 			(property
 				(name "Requirement")
@@ -1266,6 +1358,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
 			)
 			(property
 				(name "Sheetname")
@@ -1306,22 +1402,24 @@
 			(ref "C18")
 			(value "100nF")
 			(footprint "CipinkoKlingacik:C_0805_2012Metric")
-			(datasheet "https://www.murata.com/en-us/products/capacitor/mlcc")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf")
 			(fields
 				(field
-					(name "MPN") "GRM21BR71H104KA01L")
+					(name "MPN") "CC0805KRX7R9BB104")
 				(field
-					(name "Manufacturer") "Murata")
+					(name "Manufacturer") "Yageo")
 				(field
 					(name "Requirement") "100 nF, 50 V, X7R, 10%")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C49678")
+				(field
 					(name "Note") "DNP optional UART bypass")
 				(field
 					(name "Footprint") "CipinkoKlingacik:C_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.murata.com/en-us/products/capacitor/mlcc")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805KRX7R9BB104_C49678.pdf")
 				(field
 					(name "Description")
 				)
@@ -1333,11 +1431,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "GRM21BR71H104KA01L")
+				(value "CC0805KRX7R9BB104")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Murata")
+				(value "Yageo")
 			)
 			(property
 				(name "Requirement")
@@ -1346,6 +1444,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C49678")
 			)
 			(property
 				(name "Note")
@@ -1393,7 +1495,7 @@
 			(ref "D1")
 			(value "Schottky")
 			(footprint "CipinkoKlingacik:D_SOD-323")
-			(datasheet "https://www.diodes.com/assets/Datasheets/ds30421.pdf")
+			(datasheet "https://www.diodes.com/assets/Datasheets/BAT54WS.pdf")
 			(fields
 				(field
 					(name "MPN") "BAT54WS-7-F")
@@ -1404,9 +1506,11 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C124205")
+				(field
 					(name "Footprint") "CipinkoKlingacik:D_SOD-323")
 				(field
-					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/ds30421.pdf")
+					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/BAT54WS.pdf")
 				(field
 					(name "Description")
 				)
@@ -1431,6 +1535,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C124205")
 			)
 			(property
 				(name "Sheetname")
@@ -1482,6 +1590,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C98221")
+				(field
 					(name "Footprint") "CipinkoKlingacik:LED_0805_2012Metric")
 				(field
 					(name "Datasheet") "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C170KGKT.pdf")
@@ -1509,6 +1619,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C98221")
 			)
 			(property
 				(name "Sheetname")
@@ -1549,20 +1663,22 @@
 			(ref "F1")
 			(value "250 mA hold")
 			(footprint "CipinkoKlingacik:Fuse_1206_3216Metric")
-			(datasheet "https://www.bourns.com/docs/product-datasheets/mf-nsmf.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Littelfuse-1206L025YR_C99561.pdf")
 			(fields
 				(field
-					(name "MPN") "MF-NSMF025X-2")
+					(name "MPN") "1206L025YR")
 				(field
-					(name "Manufacturer") "Bourns")
+					(name "Manufacturer") "Littelfuse")
 				(field
-					(name "Requirement") "250 mA hold, 16 V PTC; drop/trip curve require review, NOT precision limiting")
+					(name "Requirement") "250 mA hold, 500 mA trip, 16 V PTC; 100 A fault rating; R1max 2.3 ohm; 80 ms max trip at 8 A, NOT precision limiting; qualify inrush/drop")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C99561")
+				(field
 					(name "Footprint") "CipinkoKlingacik:Fuse_1206_3216Metric")
 				(field
-					(name "Datasheet") "https://www.bourns.com/docs/product-datasheets/mf-nsmf.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Littelfuse-1206L025YR_C99561.pdf")
 				(field
 					(name "Description")
 				)
@@ -1574,19 +1690,23 @@
 			)
 			(property
 				(name "MPN")
-				(value "MF-NSMF025X-2")
+				(value "1206L025YR")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Bourns")
+				(value "Littelfuse")
 			)
 			(property
 				(name "Requirement")
-				(value "250 mA hold, 16 V PTC; drop/trip curve require review, NOT precision limiting")
+				(value "250 mA hold, 500 mA trip, 16 V PTC; 100 A fault rating; R1max 2.3 ohm; 80 ms max trip at 8 A, NOT precision limiting; qualify inrush/drop")
 			)
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C99561")
 			)
 			(property
 				(name "Sheetname")
@@ -1630,6 +1750,9 @@
 				(field
 					(name "Assembly") "THT/hand-fit")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
@@ -1657,6 +1780,10 @@
 			(property
 				(name "Assembly")
 				(value "THT/hand-fit")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1700,6 +1827,9 @@
 				(field
 					(name "Assembly") "THT/hand-fit")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
@@ -1727,6 +1857,10 @@
 			(property
 				(name "Assembly")
 				(value "THT/hand-fit")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1770,6 +1904,9 @@
 				(field
 					(name "Assembly") "THT/hand-fit")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
@@ -1797,6 +1934,10 @@
 			(property
 				(name "Assembly")
 				(value "THT/hand-fit")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1840,6 +1981,9 @@
 				(field
 					(name "Assembly") "THT/hand-fit")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
@@ -1867,6 +2011,10 @@
 			(property
 				(name "Assembly")
 				(value "THT/hand-fit")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1910,6 +2058,9 @@
 				(field
 					(name "Assembly") "THT/hand-fit")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:PinHeader_1x03_P2.54mm_Vertical")
 				(field
 					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
@@ -1937,6 +2088,10 @@
 			(property
 				(name "Assembly")
 				(value "THT/hand-fit")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -1983,6 +2138,9 @@
 				(field
 					(name "Assembly") "THT/hand-fit")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
 				(field
 					(name "Datasheet") "https://suddendocs.samtec.com/catalog_english/tsw.pdf")
@@ -2010,6 +2168,10 @@
 			(property
 				(name "Assembly")
 				(value "THT/hand-fit")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -2053,6 +2215,9 @@
 				(field
 					(name "Assembly") "THT/hand-fit")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Note") "DNP optional")
 				(field
 					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
@@ -2082,6 +2247,10 @@
 			(property
 				(name "Assembly")
 				(value "THT/hand-fit")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Note")
@@ -2132,6 +2301,9 @@
 				(field
 					(name "Assembly") "THT/hand-fit")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Note") "DNP optional")
 				(field
 					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
@@ -2161,6 +2333,10 @@
 			(property
 				(name "Assembly")
 				(value "THT/hand-fit")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Note")
@@ -2211,6 +2387,9 @@
 				(field
 					(name "Assembly") "THT/hand-fit")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Note") "DNP optional")
 				(field
 					(name "Footprint") "CipinkoKlingacik:PinHeader_1x02_P2.54mm_Vertical")
@@ -2240,6 +2419,10 @@
 			(property
 				(name "Assembly")
 				(value "THT/hand-fit")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Note")
@@ -2290,6 +2473,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C20917")
+				(field
 					(name "Footprint") "CipinkoKlingacik:SOT-23")
 				(field
 					(name "Datasheet") "https://aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf")
@@ -2317,6 +2502,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C20917")
 			)
 			(property
 				(name "Sheetname")
@@ -2367,6 +2556,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C143698")
+				(field
 					(name "Footprint") "CipinkoKlingacik:SOT-23")
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/65905/si2377eds.pdf")
@@ -2394,6 +2585,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C143698")
 			)
 			(property
 				(name "Sheetname")
@@ -2444,6 +2639,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C143698")
+				(field
 					(name "Footprint") "CipinkoKlingacik:SOT-23")
 				(field
 					(name "Datasheet") "https://www.vishay.com/docs/65905/si2377eds.pdf")
@@ -2471,6 +2668,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C143698")
 			)
 			(property
 				(name "Sheetname")
@@ -2521,6 +2722,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C65189")
+				(field
 					(name "Footprint") "CipinkoKlingacik:SOT-23")
 				(field
 					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf")
@@ -2548,6 +2751,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C65189")
 			)
 			(property
 				(name "Sheetname")
@@ -2598,6 +2805,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C65189")
+				(field
 					(name "Footprint") "CipinkoKlingacik:SOT-23")
 				(field
 					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf")
@@ -2625,6 +2834,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C65189")
 			)
 			(property
 				(name "Sheetname")
@@ -2675,6 +2888,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C65189")
+				(field
 					(name "Footprint") "CipinkoKlingacik:SOT-23")
 				(field
 					(name "Datasheet") "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf")
@@ -2702,6 +2917,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C65189")
 			)
 			(property
 				(name "Sheetname")
@@ -2741,20 +2960,22 @@
 			(ref "R1")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -2766,11 +2987,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -2779,6 +3000,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -2819,20 +3044,22 @@
 			(ref "R2")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -2844,11 +3071,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -2857,6 +3084,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -2897,20 +3128,22 @@
 			(ref "R3")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -2922,11 +3155,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -2935,6 +3168,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -2975,20 +3212,22 @@
 			(ref "R4")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -3000,11 +3239,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -3013,6 +3252,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -3053,20 +3296,22 @@
 			(ref "R5")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -3078,11 +3323,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -3091,6 +3336,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -3131,20 +3380,22 @@
 			(ref "R6")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -3156,11 +3407,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -3169,6 +3420,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -3209,20 +3464,22 @@
 			(ref "R7")
 			(value "1k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-071KL")
+					(name "MPN") "0805W8F1001T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17513")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -3234,11 +3491,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-071KL")
+				(value "0805W8F1001T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -3247,6 +3504,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17513")
 			)
 			(property
 				(name "Sheetname")
@@ -3287,20 +3548,22 @@
 			(ref "R8")
 			(value "1k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-071KL")
+					(name "MPN") "0805W8F1001T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17513")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -3312,11 +3575,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-071KL")
+				(value "0805W8F1001T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -3325,6 +3588,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17513")
 			)
 			(property
 				(name "Sheetname")
@@ -3365,20 +3632,22 @@
 			(ref "R9")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -3390,11 +3659,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -3403,6 +3672,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -3443,20 +3716,22 @@
 			(ref "R10")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -3468,11 +3743,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -3481,6 +3756,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -3521,20 +3800,22 @@
 			(ref "R11")
 			(value "330")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-07330RL")
+					(name "MPN") "0805W8F3300T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17630")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -3546,11 +3827,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-07330RL")
+				(value "0805W8F3300T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -3559,6 +3840,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17630")
 			)
 			(property
 				(name "Sheetname")
@@ -3599,20 +3884,22 @@
 			(ref "R12")
 			(value "330")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-07330RL")
+					(name "MPN") "0805W8F3300T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17630")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -3624,11 +3911,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-07330RL")
+				(value "0805W8F3300T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -3637,6 +3924,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17630")
 			)
 			(property
 				(name "Sheetname")
@@ -3677,20 +3968,22 @@
 			(ref "R13")
 			(value "1k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-071KL")
+					(name "MPN") "0805W8F1001T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17513")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -3702,11 +3995,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-071KL")
+				(value "0805W8F1001T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -3715,6 +4008,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17513")
 			)
 			(property
 				(name "Sheetname")
@@ -3755,20 +4052,22 @@
 			(ref "R14")
 			(value "100k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-07100KL")
+					(name "MPN") "0805W8F1003T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C149504")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -3780,11 +4079,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-07100KL")
+				(value "0805W8F1003T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -3793,6 +4092,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C149504")
 			)
 			(property
 				(name "Sheetname")
@@ -3831,22 +4134,24 @@
 		)
 		(comp
 			(ref "R15")
-			(value "15 1% >=1W")
+			(value "15 1% 2W")
 			(footprint "CipinkoKlingacik:R_2512_6332Metric")
-			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(datasheet "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312191106_YAGEO-RC2512FK-7W15RL_C6639259.pdf")
 			(fields
 				(field
-					(name "MPN") "CRCW251215R0FKEGHP")
+					(name "MPN") "RC2512FK-7W15RL")
 				(field
-					(name "Manufacturer") "Vishay")
+					(name "Manufacturer") "Yageo")
 				(field
-					(name "Requirement") "15 ohm 1%, high-pulse series; qualify >=1 W on actual PCB and derating")
+					(name "Requirement") "15 ohm 1%, 2 W (7W power code); <=0.756 W bounded peak, no pulse-overload credit; qualify >=1 W on actual PCB and derating")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C6639259")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_2512_6332Metric")
 				(field
-					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+					(name "Datasheet") "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312191106_YAGEO-RC2512FK-7W15RL_C6639259.pdf")
 				(field
 					(name "Description")
 				)
@@ -3858,19 +4163,23 @@
 			)
 			(property
 				(name "MPN")
-				(value "CRCW251215R0FKEGHP")
+				(value "RC2512FK-7W15RL")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Vishay")
+				(value "Yageo")
 			)
 			(property
 				(name "Requirement")
-				(value "15 ohm 1%, high-pulse series; qualify >=1 W on actual PCB and derating")
+				(value "15 ohm 1%, 2 W (7W power code); <=0.756 W bounded peak, no pulse-overload credit; qualify >=1 W on actual PCB and derating")
 			)
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C6639259")
 			)
 			(property
 				(name "Sheetname")
@@ -3909,22 +4218,24 @@
 		)
 		(comp
 			(ref "R16")
-			(value "15 1% >=1W")
+			(value "15 1% 2W")
 			(footprint "CipinkoKlingacik:R_2512_6332Metric")
-			(datasheet "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+			(datasheet "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312191106_YAGEO-RC2512FK-7W15RL_C6639259.pdf")
 			(fields
 				(field
-					(name "MPN") "CRCW251215R0FKEGHP")
+					(name "MPN") "RC2512FK-7W15RL")
 				(field
-					(name "Manufacturer") "Vishay")
+					(name "Manufacturer") "Yageo")
 				(field
-					(name "Requirement") "15 ohm 1%, high-pulse series; qualify >=1 W on actual PCB and derating")
+					(name "Requirement") "15 ohm 1%, 2 W (7W power code); <=0.756 W bounded peak, no pulse-overload credit; qualify >=1 W on actual PCB and derating")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C6639259")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_2512_6332Metric")
 				(field
-					(name "Datasheet") "https://www.vishay.com/docs/20043/crcwhpe3.pdf")
+					(name "Datasheet") "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312191106_YAGEO-RC2512FK-7W15RL_C6639259.pdf")
 				(field
 					(name "Description")
 				)
@@ -3936,19 +4247,23 @@
 			)
 			(property
 				(name "MPN")
-				(value "CRCW251215R0FKEGHP")
+				(value "RC2512FK-7W15RL")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Vishay")
+				(value "Yageo")
 			)
 			(property
 				(name "Requirement")
-				(value "15 ohm 1%, high-pulse series; qualify >=1 W on actual PCB and derating")
+				(value "15 ohm 1%, 2 W (7W power code); <=0.756 W bounded peak, no pulse-overload credit; qualify >=1 W on actual PCB and derating")
 			)
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C6639259")
 			)
 			(property
 				(name "Sheetname")
@@ -3989,20 +4304,22 @@
 			(ref "R17")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -4014,11 +4331,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -4027,6 +4344,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -4067,20 +4388,22 @@
 			(ref "R18")
 			(value "100")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-07100RL")
+					(name "MPN") "0805W8F1000T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17408")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -4092,11 +4415,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-07100RL")
+				(value "0805W8F1000T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -4105,6 +4428,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17408")
 			)
 			(property
 				(name "Sheetname")
@@ -4145,20 +4472,22 @@
 			(ref "R19")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -4170,11 +4499,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -4183,6 +4512,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -4234,6 +4567,9 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Note") "DNP measurement option; REMOVE R39; differential probing ONLY")
 				(field
 					(name "Footprint") "CipinkoKlingacik:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm")
@@ -4263,6 +4599,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Note")
@@ -4308,20 +4648,22 @@
 			(ref "R21")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -4333,11 +4675,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -4346,6 +4688,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -4386,20 +4732,22 @@
 			(ref "R22")
 			(value "100")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-07100RL")
+					(name "MPN") "0805W8F1000T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17408")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -4411,11 +4759,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-07100RL")
+				(value "0805W8F1000T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -4424,6 +4772,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17408")
 			)
 			(property
 				(name "Sheetname")
@@ -4464,20 +4816,22 @@
 			(ref "R23")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -4489,11 +4843,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -4502,6 +4856,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -4542,20 +4900,22 @@
 			(ref "R24")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -4567,11 +4927,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -4580,6 +4940,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -4620,20 +4984,22 @@
 			(ref "R25")
 			(value "100")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-07100RL")
+					(name "MPN") "0805W8F1000T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17408")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -4645,11 +5011,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-07100RL")
+				(value "0805W8F1000T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -4658,6 +5024,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17408")
 			)
 			(property
 				(name "Sheetname")
@@ -4698,20 +5068,22 @@
 			(ref "R26")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -4723,11 +5095,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -4736,6 +5108,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -4776,20 +5152,22 @@
 			(ref "R27")
 			(value "2.2")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-072R2L")
+					(name "MPN") "0805W8F220KT5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17521")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -4801,11 +5179,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-072R2L")
+				(value "0805W8F220KT5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -4814,6 +5192,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17521")
 			)
 			(property
 				(name "Sheetname")
@@ -4854,20 +5236,22 @@
 			(ref "R28")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -4879,11 +5263,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -4892,6 +5276,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -4932,20 +5320,22 @@
 			(ref "R29")
 			(value "100")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-07100RL")
+					(name "MPN") "0805W8F1000T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17408")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -4957,11 +5347,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-07100RL")
+				(value "0805W8F1000T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -4970,6 +5360,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17408")
 			)
 			(property
 				(name "Sheetname")
@@ -5010,20 +5404,22 @@
 			(ref "R30")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -5035,11 +5431,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -5048,6 +5444,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -5088,22 +5488,24 @@
 			(ref "R31")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Note") "DNP for external target supply")
 				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -5115,11 +5517,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -5128,6 +5530,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Note")
@@ -5175,20 +5581,22 @@
 			(ref "R32")
 			(value "1k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-071KL")
+					(name "MPN") "0805W8F1001T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17513")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -5200,11 +5608,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-071KL")
+				(value "0805W8F1001T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -5213,6 +5621,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17513")
 			)
 			(property
 				(name "Sheetname")
@@ -5253,20 +5665,22 @@
 			(ref "R33")
 			(value "100k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-07100KL")
+					(name "MPN") "0805W8F1003T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C149504")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -5278,11 +5692,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-07100KL")
+				(value "0805W8F1003T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -5291,6 +5705,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C149504")
 			)
 			(property
 				(name "Sheetname")
@@ -5331,20 +5749,22 @@
 			(ref "R34")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -5356,11 +5776,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -5369,6 +5789,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -5409,20 +5833,22 @@
 			(ref "R35")
 			(value "1k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-071KL")
+					(name "MPN") "0805W8F1001T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17513")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -5434,11 +5860,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-071KL")
+				(value "0805W8F1001T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -5447,6 +5873,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17513")
 			)
 			(property
 				(name "Sheetname")
@@ -5487,20 +5917,22 @@
 			(ref "R36")
 			(value "100")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-07100RL")
+					(name "MPN") "0805W8F1000T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17408")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -5512,11 +5944,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-07100RL")
+				(value "0805W8F1000T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -5525,6 +5957,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17408")
 			)
 			(property
 				(name "Sheetname")
@@ -5565,20 +6001,22 @@
 			(ref "R37")
 			(value "10k")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-0710KL")
+					(name "MPN") "0805W8F1002T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17414")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -5590,11 +6028,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-0710KL")
+				(value "0805W8F1002T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -5603,6 +6041,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17414")
 			)
 			(property
 				(name "Sheetname")
@@ -5643,20 +6085,22 @@
 			(ref "R38")
 			(value "100")
 			(footprint "CipinkoKlingacik:R_0805_2012Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 			(fields
 				(field
-					(name "MPN") "RC0805FR-07100RL")
+					(name "MPN") "0805W8F1000T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "1%, 0.125 W; gate pulse rating requires check")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17408")
+				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0805W8F1002T5E_C17414.pdf")
 				(field
 					(name "Description")
 				)
@@ -5668,11 +6112,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC0805FR-07100RL")
+				(value "0805W8F1000T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -5681,6 +6125,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17408")
 			)
 			(property
 				(name "Sheetname")
@@ -5721,22 +6169,24 @@
 			(ref "R39")
 			(value "0")
 			(footprint "CipinkoKlingacik:R_1206_3216Metric")
-			(datasheet "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+			(datasheet "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-1206W4F0000T5E_C17888.pdf")
 			(fields
 				(field
-					(name "MPN") "RC1206JR-070RL")
+					(name "MPN") "1206W4F0000T5E")
 				(field
-					(name "Manufacturer") "Yageo")
+					(name "Manufacturer") "UNI-ROYAL")
 				(field
 					(name "Requirement") "Fitted zero-ohm bypass; REMOVE when R20 fitted; not a removable ARM link")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C17888")
+				(field
 					(name "Note") "Baseline bypass; remove before fitting R20")
 				(field
 					(name "Footprint") "CipinkoKlingacik:R_1206_3216Metric")
 				(field
-					(name "Datasheet") "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L.pdf")
+					(name "Datasheet") "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010200_UNI-ROYAL-Uniroyal-Elec-1206W4F0000T5E_C17888.pdf")
 				(field
 					(name "Description")
 				)
@@ -5748,11 +6198,11 @@
 			)
 			(property
 				(name "MPN")
-				(value "RC1206JR-070RL")
+				(value "1206W4F0000T5E")
 			)
 			(property
 				(name "Manufacturer")
-				(value "Yageo")
+				(value "UNI-ROYAL")
 			)
 			(property
 				(name "Requirement")
@@ -5761,6 +6211,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C17888")
 			)
 			(property
 				(name "Note")
@@ -5816,6 +6270,9 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Note") "DNP UART supply bleeder; does not permit partial-link operation")
 				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
@@ -5845,6 +6302,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Note")
@@ -5903,6 +6364,9 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Note") "DNP UART B2 input default when RX link/cable absent")
 				(field
 					(name "Footprint") "CipinkoKlingacik:R_0805_2012Metric")
@@ -5932,6 +6396,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Note")
@@ -5989,6 +6457,9 @@
 				(field
 					(name "Assembly") "PCB feature")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
 				(field
 					(name "Datasheet")
@@ -6017,6 +6488,10 @@
 			(property
 				(name "Assembly")
 				(value "PCB feature")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -6059,6 +6534,9 @@
 				(field
 					(name "Assembly") "PCB feature")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
 				(field
 					(name "Datasheet")
@@ -6087,6 +6565,10 @@
 			(property
 				(name "Assembly")
 				(value "PCB feature")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -6129,6 +6611,9 @@
 				(field
 					(name "Assembly") "PCB feature")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
 				(field
 					(name "Datasheet")
@@ -6157,6 +6642,10 @@
 			(property
 				(name "Assembly")
 				(value "PCB feature")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -6199,6 +6688,9 @@
 				(field
 					(name "Assembly") "PCB feature")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
 				(field
 					(name "Datasheet")
@@ -6227,6 +6719,10 @@
 			(property
 				(name "Assembly")
 				(value "PCB feature")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -6269,6 +6765,9 @@
 				(field
 					(name "Assembly") "PCB feature")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
 				(field
 					(name "Datasheet")
@@ -6297,6 +6796,10 @@
 			(property
 				(name "Assembly")
 				(value "PCB feature")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -6339,6 +6842,9 @@
 				(field
 					(name "Assembly") "PCB feature")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
 				(field
 					(name "Datasheet")
@@ -6367,6 +6873,10 @@
 			(property
 				(name "Assembly")
 				(value "PCB feature")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -6409,6 +6919,9 @@
 				(field
 					(name "Assembly") "PCB feature")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
 				(field
 					(name "Datasheet")
@@ -6437,6 +6950,10 @@
 			(property
 				(name "Assembly")
 				(value "PCB feature")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -6479,6 +6996,9 @@
 				(field
 					(name "Assembly") "PCB feature")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Footprint") "CipinkoKlingacik:TestPoint_Pad_D1.5mm")
 				(field
 					(name "Datasheet")
@@ -6507,6 +7027,10 @@
 			(property
 				(name "Assembly")
 				(value "PCB feature")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Sheetname")
@@ -6550,6 +7074,9 @@
 				(field
 					(name "Assembly") "Module/hand-fit")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Note") "Full 40-pin socket; module/headers/sockets hand fitted")
 				(field
 					(name "Footprint") "CipinkoKlingacik:RaspberryPi_Pico_Common_THT")
@@ -6579,6 +7106,10 @@
 			(property
 				(name "Assembly")
 				(value "Module/hand-fit")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Note")
@@ -6740,6 +7271,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C99395")
+				(field
 					(name "Footprint") "CipinkoKlingacik:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/ucc27517.pdf")
@@ -6767,6 +7300,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C99395")
 			)
 			(property
 				(name "Sheetname")
@@ -6819,6 +7356,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C1870392")
+				(field
 					(name "Footprint") "CipinkoKlingacik:SOT-886")
 				(field
 					(name "Datasheet") "https://www.nxp.com/docs/en/data-sheet/NX3L1T3157.pdf")
@@ -6846,6 +7385,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C1870392")
 			)
 			(property
 				(name "Sheetname")
@@ -6901,6 +7444,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C51118")
+				(field
 					(name "Footprint") "CipinkoKlingacik:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/AP2112.pdf")
@@ -6928,6 +7473,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C51118")
 			)
 			(property
 				(name "Sheetname")
@@ -6980,6 +7529,8 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C176944")
+				(field
 					(name "Footprint") "CipinkoKlingacik:SOT-23-5")
 				(field
 					(name "Datasheet") "https://www.diodes.com/assets/Datasheets/AP2112.pdf")
@@ -7007,6 +7558,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C176944")
 			)
 			(property
 				(name "Sheetname")
@@ -7046,22 +7601,24 @@
 		)
 		(comp
 			(ref "U6")
-			(value "TLV70436DBVR")
+			(value "TPS7A2036PDBVR")
 			(footprint "CipinkoKlingacik:SOT-23-5")
-			(datasheet "https://www.ti.com/lit/ds/symlink/tlv704.pdf")
+			(datasheet "https://www.ti.com/lit/ds/symlink/tps7a20.pdf")
 			(fields
 				(field
-					(name "MPN") "TLV70436DBVR")
+					(name "MPN") "TPS7A2036PDBVR")
 				(field
 					(name "Manufacturer") "Texas Instruments")
 				(field
-					(name "Requirement") "3.6 V; pinout differs from AP2112")
+					(name "Requirement") "3.6 V; IN1 GND2 EN3 NC4 OUT5; EN tied to HOLD_IN, not Pico/AUX5; >=0.47 uF effective output; qualify retention/shutdown")
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC") "C2873626")
+				(field
 					(name "Footprint") "CipinkoKlingacik:SOT-23-5")
 				(field
-					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tlv704.pdf")
+					(name "Datasheet") "https://www.ti.com/lit/ds/symlink/tps7a20.pdf")
 				(field
 					(name "Description")
 				)
@@ -7073,7 +7630,7 @@
 			)
 			(property
 				(name "MPN")
-				(value "TLV70436DBVR")
+				(value "TPS7A2036PDBVR")
 			)
 			(property
 				(name "Manufacturer")
@@ -7081,11 +7638,15 @@
 			)
 			(property
 				(name "Requirement")
-				(value "3.6 V; pinout differs from AP2112")
+				(value "3.6 V; IN1 GND2 EN3 NC4 OUT5; EN tied to HOLD_IN, not Pico/AUX5; >=0.47 uF effective output; qualify retention/shutdown")
 			)
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C2873626")
 			)
 			(property
 				(name "Sheetname")
@@ -7114,10 +7675,10 @@
 							(num "3")
 						)
 						(pin
-							(num "4")
+							(num "5")
 						)
 						(pin
-							(num "5")
+							(num "4")
 						)
 					)
 				)
@@ -7137,6 +7698,8 @@
 					(name "Requirement") "3.3 V trigger input only")
 				(field
 					(name "Assembly") "SMT")
+				(field
+					(name "LCSC") "C7836")
 				(field
 					(name "Footprint") "CipinkoKlingacik:SOT-23-5")
 				(field
@@ -7165,6 +7728,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "C7836")
 			)
 			(property
 				(name "Sheetname")
@@ -7217,6 +7784,9 @@
 				(field
 					(name "Assembly") "SMT")
 				(field
+					(name "LCSC")
+				)
+				(field
 					(name "Note") "DNP; symbol pin types reflect hardwired DIR1=1, DIR2/3/4=0, not a general-purpose translator")
 				(field
 					(name "Footprint") "CipinkoKlingacik:TSSOP-16_4.4x5mm_P0.65mm")
@@ -7246,6 +7816,10 @@
 			(property
 				(name "Assembly")
 				(value "SMT")
+			)
+			(property
+				(name "LCSC")
+				(value "")
 			)
 			(property
 				(name "Note")
@@ -8203,18 +8777,18 @@
 			(pins
 				(pin
 					(num "1")
-					(name "GND")
-					(type "power_in")
-				)
-				(pin
-					(num "2")
 					(name "IN")
 					(type "power_in")
 				)
 				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
 					(num "3")
-					(name "OUT")
-					(type "power_out")
+					(name "EN")
+					(type "input")
 				)
 				(pin
 					(num "4")
@@ -8223,8 +8797,8 @@
 				)
 				(pin
 					(num "5")
-					(name "NC")
-					(type "no_connect")
+					(name "OUT")
+					(type "power_out")
 				)
 			)
 		)
@@ -8975,8 +9549,8 @@
 			)
 			(node
 				(ref "U6")
-				(pin "1")
-				(pinfunction "GND_1")
+				(pin "2")
+				(pinfunction "GND_2")
 				(pintype "power_in")
 			)
 			(node
@@ -9043,9 +9617,15 @@
 			)
 			(node
 				(ref "U6")
-				(pin "2")
-				(pinfunction "IN_2")
+				(pin "1")
+				(pinfunction "IN_1")
 				(pintype "power_in")
+			)
+			(node
+				(ref "U6")
+				(pin "3")
+				(pinfunction "EN_3")
+				(pintype "input")
 			)
 		)
 		(net
@@ -9189,8 +9769,8 @@
 			)
 			(node
 				(ref "U6")
-				(pin "3")
-				(pinfunction "OUT_3")
+				(pin "5")
+				(pinfunction "OUT_5")
 				(pintype "power_out")
 			)
 		)
@@ -10146,17 +10726,6 @@
 		)
 		(net
 			(code "74")
-			(name "unconnected-(U6-NC-Pad5)")
-			(class "Default")
-			(node
-				(ref "U6")
-				(pin "5")
-				(pinfunction "NC_5")
-				(pintype "no_connect")
-			)
-		)
-		(net
-			(code "75")
 			(name "unconnected-(U7-NC-Pad1)")
 			(class "Default")
 			(node
@@ -10167,7 +10736,7 @@
 			)
 		)
 		(net
-			(code "76")
+			(code "75")
 			(name "unconnected-(U8-A3-Pad5)")
 			(class "Default")
 			(node
@@ -10178,7 +10747,7 @@
 			)
 		)
 		(net
-			(code "77")
+			(code "76")
 			(name "unconnected-(U8-A4-Pad6)")
 			(class "Default")
 			(node

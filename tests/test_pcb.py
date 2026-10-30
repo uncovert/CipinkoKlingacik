@@ -1,5 +1,6 @@
 """Dependency-free checks of the placed board and its real KiCad DRC report."""
 import hashlib
+import copy
 import json
 from pathlib import Path
 import sys
@@ -9,7 +10,7 @@ ROOT = Path(__file__).resolve().parent.parent
 HW = ROOT / "hardware"
 sys.path.insert(0, str(ROOT / "scripts"))
 from kicad_sexpr import child, children, loads
-from pcb_geometry import track_path_mm
+from pcb_geometry import footprint_pads, track_path_mm, via_smt_clearance_violations
 
 
 def properties(node):
@@ -35,7 +36,7 @@ class PCBTests(unittest.TestCase):
                 fp = self.fps[ref]
                 self.assertEqual(fp[1], properties(sym)["Footprint"])
                 self.assertEqual(child(fp, "path")[1], f"/{root}/{child(sym, 'uuid')[1]}")
-                for key in ("MPN", "Manufacturer", "Requirement", "Assembly", "Datasheet", "Value"):
+                for key in ("MPN", "Manufacturer", "Requirement", "Assembly", "Datasheet", "Value", "LCSC"):
                     self.assertEqual(properties(fp)[key], properties(sym)[key])
                 pads = {p[1]: p for p in children(fp, "pad") if p[1]}
                 self.assertEqual(set(pads), set(self.contract[ref]))
@@ -99,7 +100,8 @@ class PCBTests(unittest.TestCase):
         for key, file in (("board_sha256", "cipinkoklingacik.kicad_pcb"),
                           ("schematic_sha256", "cipinkoklingacik.kicad_sch"),
                           ("project_sha256", "cipinkoklingacik.kicad_pro"),
-                          ("drc_sha256", "cipinkoklingacik-drc.json")):
+                          ("drc_sha256", "cipinkoklingacik-drc.json"),
+                          ("erc_sha256", "cipinkoklingacik-erc.rpt")):
             self.assertEqual(self.status[key], hashlib.sha256((HW / file).read_bytes()).hexdigest())
         project = json.loads((HW / "cipinkoklingacik.kicad_pro").read_text())
         settings = project["board"]["design_settings"]
@@ -111,7 +113,9 @@ class PCBTests(unittest.TestCase):
                      "footprint_type_mismatch"):
             self.assertEqual(settings["rule_severities"][name], "error", name)
         self.assertFalse([name for name, severity in settings["rule_severities"].items()
-                          if severity == "ignore"], "No unreviewed DRC suppression is allowed")
+                           if severity == "ignore"], "No unreviewed DRC suppression is allowed")
+        for name, digest in self.status["review_artifacts_sha256"].items():
+            self.assertEqual(digest, hashlib.sha256((HW / name).read_bytes()).hexdigest())
 
     def test_signal_transitions_have_local_ground_returns(self):
         import math
@@ -144,11 +148,40 @@ class PCBTests(unittest.TestCase):
         for start, end, maximum in (
             (("U4", "5"), ("C5", "1"), 4.0),
             (("U5", "5"), ("C8", "1"), 4.0),
-            (("U6", "2"), ("C10", "1"), 3.1),
-            (("U6", "3"), ("C11", "1"), 4.0),
+            (("U6", "1"), ("C10", "1"), 3.1),
+            (("U6", "5"), ("C11", "1"), 4.0),
             (("U2", "1"), ("C13", "1"), 2.3),
         ):
             self.assertLessEqual(track_path_mm(self.board, start, end), maximum, (start, end))
+
+    def test_revised_regulator_has_local_ground_returns(self):
+        import math
+        pads = footprint_pads(self.board)
+        ground_vias = [tuple(map(float, child(v, "at")[1:3]))
+                       for v in children(self.board, "via") if child(v, "net")[-1] == "/GND"]
+        for pad, maximum in ((("U6", "2"), 2.0), (("C10", "2"), 1.8), (("C11", "2"), 1.3)):
+            point, net = pads[pad]
+            self.assertEqual(net, "/GND")
+            self.assertLessEqual(min(math.dist(point, via) for via in ground_vias), maximum, pad)
+
+    def test_no_baseline_vias_in_smt_pad_or_solder_opening(self):
+        self.assertEqual(via_smt_clearance_violations(self.board), [])
+
+    def test_dfm_guard_rejects_all_four_original_via_sites(self):
+        board = copy.deepcopy(self.board)
+        original = {"35931af4-9bd8-49ea-a183-1a7df05ac788": (61.8, 10),
+                    "37b3b1c6-3087-48ee-b490-a52a368b3aaa": (61.8, 29),
+                    "fef404bc-ef6b-4963-959d-9185769693e5": (60.8, 44),
+                    "22f84046-3a79-49d4-b359-0d22a4f075b2": (70.95, 45.2)}
+        found = set()
+        for via in children(board, "via"):
+            key = child(via, "uuid")[1]
+            if key in original:
+                child(via, "at")[1:3] = list(map(str, original[key]))
+                found.add(key)
+        self.assertEqual(found, set(original))
+        self.assertEqual({v["pad"] for v in via_smt_clearance_violations(board)},
+                         {"C4.2", "C7.2", "C9.2", "C11.2"})
 
     def test_connector_function_labels_are_present(self):
         texts = {item[1] for item in children(self.board, "gr_text")}

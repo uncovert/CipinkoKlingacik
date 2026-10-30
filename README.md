@@ -3,12 +3,12 @@
 **A socketed Raspberry Pi Pico 2 voltage fault-injection carrier for supervised
 hardware research.** Portable project/repository name: `cipinkoklingacik`.
 
-**Release: `v0.1.0-alpha.1` · Hardware: C3 · Engineering prototype.**
+**Release: `v0.1.0-alpha.2` · Hardware: C4 · Engineering prototype.**
 The routed design passes static electrical/layout checks. **Firmware is not
 implemented; no boards have been built or hardware-qualified.** This is not a
 production-ready instrument or a guaranteed bypass of any device protection.
 
-![Baseline assembly — illustrative CAD render](hardware/visuals/cipinkoklingacik-C3-isometric.png)
+![Baseline assembly — illustrative CAD render](hardware/visuals/cipinkoklingacik-C4-isometric.png)
 
 *Generic package models; the Pico is a disclosed form-factor proxy. Socket
 height, colours and USB clearance are not mechanically approved.*
@@ -35,6 +35,7 @@ implementation. An external SWD probe and synchronization software are separate.
 | View the assembly | [3D views and PDF](hardware/visuals/README.md) |
 | Review PCB evidence | [PCB review](hardware/PCB_REVIEW.md) · [review decisions](docs/REVIEW.md) |
 | Inspect manufacturing data | [Prototype package](hardware/manufacturing/README.md) |
+| Upload to JLCPCB | [Upload files, sourcing review and cost model](docs/JLCPCB.md) |
 | Reproduce checks | [Build/check guide](docs/BUILD.md) |
 | Understand remaining work | [Qualification checklist](docs/VALIDATION.md) · [parts policy](docs/PARTS.md) |
 

@@ -1,6 +1,6 @@
-# ČipinkoKlingáčik — electrical design (C3)
+# ČipinkoKlingáčik — electrical design (C4)
 
-Revision: 2026-10-28, C3 reviewed prototype. **Design files, not tested hardware.**
+Revision: 2026-10-30, C4 reviewed prototype. **Design files, not tested hardware.**
 
 This is a supervised, low-cost bench instrument for expendable, authorized
 development targets. Keep the socketed Pico 2, separate crowbar, voltage selector,
@@ -8,7 +8,7 @@ reset and trigger. Do not turn it into an industrial fault-tolerant instrument.
 Reviewed design decisions and remaining qualification gates are summarized in
 [`REVIEW.md`](REVIEW.md).
 
-The complete C3 KiCad schematic and its PDF are in
+The complete C4 KiCad schematic and its PDF are in
 [`hardware/README.md`](../hardware/README.md), with assigned local footprints,
 exact-part selections and exported-netlist tests. The 100 × 85 mm two-layer
 carrier is fully routed and passes strict ERC/DRC/parity with zero unconnected
@@ -60,7 +60,7 @@ Pico USB VBUS ------------------------------> Pico powerchain (unchanged)
                                       |
                                       +-- diode -- 1 kΩ --> HOLD_IN capacitor
                                                            |
-                                                        TLV704-3.6 --> MUX_VCC
+                                                        TPS7A20-3.6 --> MUX_VCC
 
 VHIGH --> 15 Ω --> Y0  NX3L1T3157
 VLOW  --> 15 Ω --> Y1  VCC = MUX_VCC, not Pico 3V3 or VLOW
@@ -97,6 +97,10 @@ Pico VBUS is usable as a power takeoff; its input label does not prohibit this.
 There is no Pico-side VBUS fuse to rely on. F_AUX protects the added carrier
 branch against gross faults, **not** as an accurate 250 mA current regulator or
 a nanosecond switch-current limiter. It does not protect faults on the Pico.
+The sourced F1 is **Littelfuse 1206L025YR**, 250 mA hold/500 mA trip, 16 V,
+R1max 2.3 Ω, 100 A fault rating. Its 80 ms trip specification is at **8 A**, not
+the normal load. Room-temperature hold ratings derate with ambient temperature;
+measure inrush, steady drop and fault behavior with the actual source.
 
 Normal auxiliary budget: 10 mA target + approximately 10 mA VHIGH bleed +
 5.5 mA VLOW bleed + driver/control/recharge allowance: **≤60 mA average**.
@@ -119,7 +123,10 @@ An ordinary 5 V −5% source is already 4.75 V before cable/PTC drop; the
 
 ### Mux supply and rail preparation
 
-MUX_VCC is **TLV70436DBVR**, nominal 3.6 V, bypassed with 1 µF effective ≥0.47 µF.
+MUX_VCC is **TPS7A2036PDBVR**, nominal 3.6 V, bypassed with 1 µF effective
+≥0.47 µF. The new pinout is **IN1/GND2/EN3/NC4/OUT5**. EN is tied to retained
+HOLD_IN, not AUX_5V or Pico: a host-power drop must not disable retention early.
+This replaces TLV70436 and **requires the revised local PCB routing**.
 Its input is isolated from AUX_5V by a Schottky diode and charged through 1 kΩ.
 HOLD_IN has 100 µF nominal, **≥47 µF effective at input bias**, plus local ceramic
 bypass. Add a 100 kΩ MUX_VCC bleeder. This supply powers the mux only.
@@ -128,8 +135,18 @@ Use the ordering code's actual accuracy/dropout and capacitor leakage in the
 final check: budget MUX_VCC at 3.50–3.70 V, above VHIGH ≤3.35 V and below the
 mux's 4.3 V operating maximum. Budget ≤0.10 mA total retention-branch demand,
 including regulator, mux, bleeder and capacitor leakage; verify it on the bench.
-For illustration, HOLD_IN from 4.2 V to 3.7 V with 47 µF and 0.10 mA lasts
-235 ms. **This is a sequencing estimate, not a guaranteed brownout waveform.**
+For illustration, HOLD_IN from 4.2 V to **3.9 V** with 47 µF and 0.10 mA lasts
+**141 ms**. The endpoint retains 0.3 V headroom for TPS7A20; it replaces the old
+3.7 V / 235 ms assumption. Static sizing allocates 25 µA to LDO demand, 8 µA to
+the mux/control input, 16 µA to reservoir leakage, 2 µA to D1 reverse leakage
+(25°C datasheet condition) and ~37.4 µA to the 100 kΩ bleeder: ~88.4 µA before
+the remaining 100 µA budget margin. These are design
+allocations, **not** guaranteed combined IC limits or measured demand. Do not
+assume this budget under continuous select toggling. TPS7A20's ±1.5% accuracy
+specification has load/headroom conditions; verify the actual light-load rail.
+Its P-version discharge activates on disable/UVLO and it does not block reverse
+current. Keep D1 isolation and capture complete startup/brownout/power-down
+traces. **This is a sequencing estimate, not a guaranteed brownout waveform.**
 
 Both AP2112 EN pins share RAILS_EN (GP10), each with a 10 kΩ pull-down and 1 kΩ
 GPIO series resistor. Their input bypass capacitors meet their datasheets.
@@ -168,7 +185,7 @@ Z=output, VCC=MUX_VCC, GND=local ground.
 **MUX_LOW=0 selects VHIGH; MUX_LOW=1 selects VLOW.** GP5 drives S through 100 Ω;
 fit 10 kΩ S-to-GND pull-down and 100 nF local VCC bypass.
 
-Each mux input has a **15 Ω, 1%, 1 W, pulse-rated resistor**: R_HIGH between
+Each mux input has a **Yageo RC2512FK-7W15RL, 15 Ω, 1%, 2 W resistor**: R_HIGH between
 the VHIGH reservoir and Y0, R_LOW between the VLOW reservoir and Y1. Only one is
 in the selected supply path. Neither is bridged in the default build. Putting
 them at the inputs also includes external Z/disconnect-node capacitance in the
@@ -181,6 +198,15 @@ worst first-order current ceiling = 3.35 V / (15 Ω × 0.99) = 226 mA
 worst high-branch short dissipation = 3.35² / 14.85 = 0.756 W
 normal 10 mA path dissipation       ≈ 1.5 mW in the selected resistor
 ```
+
+No pulse-overload credit is required for these parts: even bounded peak power
+is below the continuous nameplate rating. The selected 7W ordering code means
+**2 W**, not 7 watts or the ordinary 1 W version. TCR is ±200 ppm/°C; including
+that allowance over −40..125°C component temperature gives Rmin≈14.553 Ω,
+Imax≈230 mA and Pmax≈0.771 W. The actual PCB still must qualify ≥1 W capability
+at its accepted ambient/copper temperature and fault duration; the 2 W catalog
+rating is not proof of the assembled board's thermal performance. This selection
+does not claim Vishay CRCW-HP-equivalent overload capability outside these bounds.
 
 These are passive/reservoir-fed upper bounds, **not a prediction of sustained
 LDO current**. At nominal 1.8 V the low-branch bound is 121 mA / 0.218 W in
@@ -450,7 +476,7 @@ hardware protection against a stalled PIO/clock or a driven-high GPIO.
 - Optional Kelvin shunt footprint defaults to a 0 Ω bypass. A fitted value adds
   to the 17 Ω budget. Use true-GND probe pads and differential shunt measurement;
   never attach a grounded scope clip to the live high side.
-  **C3 implementation:** R39 is the fitted 0 Ω 1206 bypass. Optional R20 is a
+  **C4 implementation:** R39 is the fitted 0 Ω 1206 bypass. Optional R20 is a
   four-terminal WSK2512R1000FEA, 0.1 Ω; force pads 1/4 and sense pads 2/3 are
   distinct PCB nets, with sense-only traces to TP7/TP8. Remove R39 before fitting
   R20, and requalify the complete path/measurement. **R20 needs hand-soldering
@@ -460,8 +486,8 @@ hardware protection against a stalled PIO/clock or a driven-high GPIO.
   DC/low-bandwidth current checks initially, **not a validated fast-pulse current
   probe**. Probe-loop pickup, shunt inductance and bandwidth need measurement.
   The old JP1 header and two-terminal 10 Ω option are retired.
-- Reviewed C3 bypass trace lengths: U4/C5 and U5/C8 about 3.86 mm each;
-  U6 input/C10 about 2.96 mm; U6 output/C11 about 3.83 mm; U2 VDD/C13 about
+- Reviewed C4 bypass trace lengths: U4/C5 and U5/C8 about 3.86 mm each;
+  U6 input/C10 about 2.26 mm; U6 output/C11 about 3.35 mm; U2 VDD/C13 about
   2.15 mm. Ground is connected through local copper/stitches; trace lengths are
   not full current-loop lengths or stability measurements. C12 bypasses the mux
   separately; C14 is additional distributed driver bulk bypass, not pin-local.

@@ -1,0 +1,70 @@
+{
+  "purpose": "Budget model, NOT a supplier quote or order approval",
+  "snapshot": "hardware/sourcing/jlcpcb-stock-2026-10-30-r2.json",
+  "baseline_smt_placements": 68,
+  "unique_skus": 24,
+  "smt_solder_joints_per_board": 161,
+  "paid_extended_skus": 15,
+  "economic_feeder_total_USD": 46.05,
+  "excludes": [
+    "PCB fabrication",
+    "shipping, duties, VAT",
+    "component attrition/MOQ/global sourcing",
+    "X-ray for leadless U3",
+    "special process/nitrogen/pre-reflow fees",
+    "Pico, sockets, headers, loose shunt and all hand-fit labor"
+  ],
+  "assumptions": [
+    "Economic PCBA eligibility is subject to JLCPCB review",
+    "No coupons or unverified feeder rotation offsets",
+    "Exact-quantity subtotals exclude procurement minimum/attrition charges",
+    "Quantity allowance prices max(build + lossNumber, leastNumber, minPurchaseNum) at snapshot tiers; NOT checkout pricing",
+    "leastNumberPrice is retained verbatim; its billing semantics/discounts are not assumed without checkout confirmation",
+    "Minimum charges do not prohibit a two-board assembly order",
+    "Out-of-stock catalog prices are NOT procurement quotes"
+  ],
+  "estimates": [
+    {
+      "assembled_boards": 2,
+      "components_USD_excluding_attrition": 8.8682,
+      "setup_stencil_confirmation_feeders_USD": 56.21,
+      "smt_joint_charge_USD": 0.5152,
+      "subtotal_USD": 65.5934,
+      "per_board_USD": 32.7967,
+      "quantity_allowance_components_USD": 18.4339,
+      "quantity_allowance_subtotal_USD": 75.1591,
+      "quantity_allowance_per_board_USD": 37.5795,
+      "snapshot_stock_shortfalls_with_quantity_allowance": [],
+      "additional_pre_reflow_USD_if_applied": 5.152,
+      "snapshot_stock_shortfalls_before_attrition": []
+    },
+    {
+      "assembled_boards": 5,
+      "components_USD_excluding_attrition": 22.1705,
+      "setup_stencil_confirmation_feeders_USD": 56.21,
+      "smt_joint_charge_USD": 1.288,
+      "subtotal_USD": 79.6685,
+      "per_board_USD": 15.9337,
+      "quantity_allowance_components_USD": 28.5331,
+      "quantity_allowance_subtotal_USD": 86.0311,
+      "quantity_allowance_per_board_USD": 17.2062,
+      "snapshot_stock_shortfalls_with_quantity_allowance": [],
+      "additional_pre_reflow_USD_if_applied": 12.88,
+      "snapshot_stock_shortfalls_before_attrition": []
+    },
+    {
+      "assembled_boards": 10,
+      "components_USD_excluding_attrition": 43.259,
+      "setup_stencil_confirmation_feeders_USD": 56.21,
+      "smt_joint_charge_USD": 2.576,
+      "subtotal_USD": 102.045,
+      "per_board_USD": 10.2045,
+      "quantity_allowance_components_USD": 48.8661,
+      "quantity_allowance_subtotal_USD": 107.6521,
+      "quantity_allowance_per_board_USD": 10.7652,
+      "snapshot_stock_shortfalls_with_quantity_allowance": [],
+      "additional_pre_reflow_USD_if_applied": 25.76,
+      "snapshot_stock_shortfalls_before_attrition": []
+    }
+  ]
+}

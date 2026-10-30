@@ -11,8 +11,11 @@ from scripts.design_calculations import (
     check_budgets,
     discharge_time,
     passive_peak_current,
+    minimum_series_resistance,
     profile_budget,
     rc_settling_time,
+    retention_demand_allowance,
+    retention_time_estimate,
 )
 
 
@@ -77,6 +80,22 @@ class DesignCalculationTests(unittest.TestCase):
         self.assertFalse(check_budgets(bad)[
             "driver initial UVLO margin at least 250 mV"
         ])
+
+    def test_revised_ti_regulator_retention_allocations(self):
+        self.assertAlmostEqual(retention_demand_allowance(), 88.373737e-6)
+        self.assertLess(retention_demand_allowance(), Budget().hold_demand_max)
+        self.assertAlmostEqual(retention_time_estimate(), 0.141)
+        bad = replace(Budget(), hold_ldo_allowance=100e-6)
+        self.assertFalse(check_budgets(bad)["retention demand allowances fit current budget"])
+        with self.assertRaises(ValueError):
+            retention_time_estimate(replace(Budget(), hold_input_end=4.3))
+
+    def test_selected_two_watt_limiter_needs_no_pulse_overload_credit(self):
+        minimum = minimum_series_resistance()
+        self.assertAlmostEqual(minimum, 14.553)
+        self.assertLess(3.35 / minimum, 0.250)
+        self.assertLess(3.35**2 / minimum, Budget().series_power)
+        self.assertLess(Budget().series_power, 2.0)  # 1 W required actual-PCB capability vs 2 W nameplate.
 
     def test_invalid_inputs(self):
         for c in (0, -1, float("nan"), float("inf")):

@@ -52,9 +52,15 @@ def verify_repository():
     for key, filename in (("board_sha256", "cipinkoklingacik.kicad_pcb"),
                           ("schematic_sha256", "cipinkoklingacik.kicad_sch"),
                           ("project_sha256", "cipinkoklingacik.kicad_pro"),
-                          ("drc_sha256", "cipinkoklingacik-drc.json")):
+                          ("drc_sha256", "cipinkoklingacik-drc.json"),
+                          ("erc_sha256", "cipinkoklingacik-erc.rpt")):
         if status[key] != digest(hw / filename) or manufacturing[key] != status[key]:
             raise RuntimeError(f"Stale source/report binding: {filename}")
+    if manufacturing["pcb_status_sha256"] != digest(hw / "cipinkoklingacik-pcb-status.json"):
+        raise RuntimeError("Stale PCB status binding")
+    for name, expected in status["review_artifacts_sha256"].items():
+        if digest(hw / name) != expected:
+            raise RuntimeError(f"Stale 2D review artifact: {name}")
     drc = json.loads((hw / "cipinkoklingacik-drc.json").read_text())
     if any(drc[key] for key in ("violations", "unconnected_items", "schematic_parity", "ignored_checks")):
         raise RuntimeError("PCB check is not fully clean")

@@ -59,7 +59,7 @@ class HardwareTests(unittest.TestCase):
             "U3": ["MY1", "GND", "MY0", "MZ", "MVCC", "MUX_S"],
             "U4": ["AUX5", "GND", "EN_H", None, "VH"],
             "U5": ["AUX5", "GND", "EN_L", None, "VL"],
-            "U6": ["GND", "HOLD", "MVCC", None, None],
+            "U6": ["HOLD", "GND", "HOLD", None, "MVCC"],
             "U7": [None, "TRIG_F", "GND", "TRIG_OUT", "3V3"],
             "Q1": ["Q1G", "GND", "GL"],
             "Q2": ["Q23G", "Q23S", "MZ"],
@@ -82,6 +82,16 @@ class HardwareTests(unittest.TestCase):
                          6: "TGT_ON", 7: "MUX_CMD", 9: "RST_ASSERT", 10: "LED",
                          11: "ARM_EN", 12: "UART_OE", 14: "REN", 36: "3V3", 40: "VBUS"}.items():
             self.assertEqual(self.net("U1", pin), net)
+
+    def test_mux_ldo_enable_follows_retained_input_not_usb_or_pico(self):
+        self.assertEqual(self.net("U6", 3), self.net("U6", 1))
+        self.assertEqual(self.net("U6", 1), self.net("C10", 1))
+        self.assertNotEqual(self.net("U6", 3), self.net("U4", 1))
+        self.assertNotEqual(self.net("U6", 3), self.net("U1", 36))
+        symbol = self.libs[child(self.symbols["U6"], "lib_id")[1]]
+        functions = {child(pin, "number")[1]: child(pin, "name")[1]
+                     for unit in children(symbol, "symbol") for pin in children(unit, "pin")}
+        self.assertEqual(functions, {"1": "IN", "2": "GND", "3": "EN", "4": "NC", "5": "OUT"})
 
     def test_current_limit_and_crowbar_separation(self):
         for ref, a, b in (("R15", "VH", "MY0"), ("R16", "VL", "MY1")):

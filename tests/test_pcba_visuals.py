@@ -15,9 +15,9 @@ class PCBVisualTests(unittest.TestCase):
         for key, filename in (("source_board_sha256", "cipinkoklingacik.kicad_pcb"),
                               ("source_project_sha256", "cipinkoklingacik.kicad_pro")):
             self.assertEqual(manifest[key], hashlib.sha256((HW / filename).read_bytes()).hexdigest())
-        expected = {f"cipinkoklingacik-C3-{name}.png" for name in
+        expected = {f"cipinkoklingacik-C4-{name}.png" for name in
                     ("isometric", "top", "bottom", "module-removed", "overview")}
-        expected.add("cipinkoklingacik-C3-assembly-views.pdf")
+        expected.add("cipinkoklingacik-C4-assembly-views.pdf")
         self.assertEqual(set(manifest["artifacts"]), expected)
         for name, item in manifest["artifacts"].items():
             data = (VIEWS / name).read_bytes()

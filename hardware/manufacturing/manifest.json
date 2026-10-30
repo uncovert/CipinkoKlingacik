@@ -1,12 +1,15 @@
 {
-  "revision": "C3",
+  "revision": "C4",
   "purpose": "Engineering-prototype quote/review data; NOT production approval",
   "fabrication_release": false,
   "hardware_qualification": "NOT PERFORMED",
-  "board_sha256": "57e30dfc570bdc0e43d36096923e3169187b0db4840fec9d70367bdbd46c96a8",
-  "schematic_sha256": "9dee4fb6eecf24aaa014c17a3a561823b7744e7de247a1c9638019c7bc7dacff",
+  "board_sha256": "e9bb56ae7312ffaf65c7c460f86121ce61bdbebf510c45c1fd2329b8582d4720",
+  "schematic_sha256": "3416fbe4736aeab581e09263737e0f4a109dfcc4d2e11a8b6b3270fae1199a0f",
   "project_sha256": "ec8ad623e6599c5c1f016df9f6e8a333e245cb6c90a9bac091475ee1c37d2308",
-  "drc_sha256": "85cb2bd890c0cad8a7266dd7da868758207a57f3eb8d19a782b268ddd15a9470",
+  "drc_sha256": "d83d47dc2e795f7e5308048b3cf901b85ce2434680982562488b9b376369c294",
+  "erc_sha256": "77a5e1475c88553d1f6b658590e6d3a9cc2428bd2e2380e0de396c41bcfb96d4",
+  "pcb_status_sha256": "ca463610a138b136a02e50f232cbc385e8b3be8d79dbdc2b7275e7787af2de4a",
+  "jlcpcb_snapshot_sha256": "4f7e2424d8bba027f79c0ca5518e8c102f7434a631044e38ad2220cda5e664e3",
   "baseline_smt_refs": [
     "C1",
     "C10",
@@ -99,87 +102,103 @@
   ],
   "artifacts": {
     "README.md": {
-      "sha256": "a734058a6a324e0f6cb9938eaad05776ba80b3a5ac2e5c4f8cfde3f820aac14c",
-      "bytes": 3710
+      "sha256": "878a3b5176dc62231205a4f179c81cb2713984938addc58268799caae4fbabb5",
+      "bytes": 4905
     },
     "assembly/accessories-candidates.csv": {
-      "sha256": "df0b4fd46804ff295e04f3aef2b8674808334581c215cfa4f631426bd7463821",
-      "bytes": 773
+      "sha256": "7e03f914517f37defbeef905d18764c4738f2a17b3720a7a316ba6ee9b5f287b",
+      "bytes": 766
     },
     "assembly/baseline-hand-fit.csv": {
-      "sha256": "f0b46330c2944eea1f52b9949e74026f2bb85b414bfebf9288f4e3ad9ee3f868",
-      "bytes": 1635
+      "sha256": "18a5f307de883abdd4b42c8b6cc3adeff9ab634e69061e35e7823b895b5fb66f",
+      "bytes": 1639
     },
     "assembly/baseline-smt-bom.csv": {
-      "sha256": "60c79158cff46acc5649b717499ec58dd399e6f05551835c3a2813f6c4cde744",
-      "bytes": 13739
+      "sha256": "775d01a118ce1582516758eb8992f5f4a1beab549f84114f038616685b29e211",
+      "bytes": 15075
     },
     "assembly/baseline-smt-pos.csv": {
-      "sha256": "3a7784e052260628a27bf8395fbcc09d021382d373af91348a4c25d15c7ab0c4",
+      "sha256": "f9bb35cf80eeb764e84c5a0bb02bd7f8eebb6cd913367e5deebe9ea96ea616ab",
       "bytes": 4504
     },
-    "cipinkoklingacik-C3-bare-pcb.zip": {
-      "sha256": "96c5738fbba6e73f5bab6cbd8c9c10e723c1f200dd8599f07afbf47f0eb69042",
-      "bytes": 159164
+    "assembly/jlcpcb-bom.csv": {
+      "sha256": "5abc1e7a75102874e60fbe9a8e3cbf9afdf92e1567031e5f0be253c0d8992be7",
+      "bytes": 2068
+    },
+    "assembly/jlcpcb-cost-estimate.json": {
+      "sha256": "050f044beca222356b7de03b049572c62aa9e9302bd4f755700e96416114c604",
+      "bytes": 2899
+    },
+    "assembly/jlcpcb-cpl.csv": {
+      "sha256": "189838292def54b77243d1e3a9c89a95e9953451a0c3712dca4950a06801d2cd",
+      "bytes": 2613
+    },
+    "assembly/jlcpcb-sourcing.csv": {
+      "sha256": "9e03c1fc6a79bd6acdea6ad1e859bbc2483114c113b72654daf2ccf146983a18",
+      "bytes": 5224
+    },
+    "cipinkoklingacik-C4-bare-pcb.zip": {
+      "sha256": "1a58233dfe19b070afffab89a7e6e0db2b98eb5142628a44b9095bc733f81c98",
+      "bytes": 159297
     },
     "drill-report.txt": {
-      "sha256": "7aec86b0bfd913d754cb62673ec303438d8b8675ab5bbd2a2e2d80678a9190e1",
+      "sha256": "a44837560983f0aca98aeae3cbcb686e0f9455d17ee481da9f970c2223c8f7c4",
       "bytes": 714
     },
     "gerbers/cipinkoklingacik-B_Cu.gbl": {
-      "sha256": "9cab2407cbca8f6e3a9600cb49783a84966f202e069bb61e4a94f70af1fb7605",
-      "bytes": 125353
+      "sha256": "dadc6ed9d8b16bd0015d49202fdee6ae72589ab81b2b8e8c6885447988409a03",
+      "bytes": 125401
     },
     "gerbers/cipinkoklingacik-B_Mask.gbs": {
-      "sha256": "5dd3aff05bbd192d008b190d5c83863a6d3dbf72774c212d8d7728d9d9133afd",
+      "sha256": "089955ae667d7788fef02b163df362e4c55b89c8bb92a037737f480798a8ee07",
       "bytes": 4682
     },
     "gerbers/cipinkoklingacik-B_Silkscreen.gbo": {
-      "sha256": "19152d428b01c31fa489347c52d393b422fdbb5c1797ffdc42d92ca69050866e",
+      "sha256": "c85ff86f6c0bb7e4161cbb758a587e6308a5d093de4527f8c81ee27da1552156",
       "bytes": 460
     },
     "gerbers/cipinkoklingacik-Edge_Cuts.gm1": {
-      "sha256": "1c083cee2f99b616c8422f4bb8531bd9896de4c1fc0a86ec258ebc9ffed25e8c",
+      "sha256": "ffae192239ed5f2cc24e66fe1f512795bc64d6e2ec513d738131f2ae214c7f2a",
       "bytes": 625
     },
     "gerbers/cipinkoklingacik-F_Cu.gtl": {
-      "sha256": "2beba373dd20aef2113fa890a2eb4fbd5b8c05af31ce14fb6f6051fd57c9a66d",
-      "bytes": 308243
+      "sha256": "c47efe89c8a1db26635a2ee292c392544cdd214faea19438a67fff7f34a69e68",
+      "bytes": 308423
     },
     "gerbers/cipinkoklingacik-F_Mask.gts": {
-      "sha256": "b4ed62c8623c444c9758cc99254820cf8d4e752b90b1d29de144bf3cb3cf641d",
+      "sha256": "ba9e7fe353313aa3d590b70fc734db7215aa73c3ba0fb0ec4346734e7f74ac2b",
       "bytes": 13352
     },
     "gerbers/cipinkoklingacik-F_Silkscreen.gto": {
-      "sha256": "82ba71633ef53a22b1aa8d79023f2d622cef8c58d9e8cc954121c541db3eae42",
-      "bytes": 84118
+      "sha256": "187ddb733242b24eef613efbb14a63ab68e62dcc489cab24072b0c1c3d05caaf",
+      "bytes": 83638
     },
     "gerbers/cipinkoklingacik-NPTH-drl_map.pdf": {
-      "sha256": "1b59152bc067f8117606e53518748ba2a0a2a93bc35d9766b7d0f78383800efd",
+      "sha256": "de98ee2749d679bce3653a55b2ec79db4f98db1b4a047b8a0a2304a333336c06",
       "bytes": 12460
     },
     "gerbers/cipinkoklingacik-NPTH.drl": {
-      "sha256": "e5a55e1928817ded9a8c0b2e7dc0a32dd0421fa59d1b7a3f7e72a48ce7f58dca",
+      "sha256": "d4a1c1261c6538948e5ea0c996ab39d23d705bf1c66c09a3ed4cbab29a9878b8",
       "bytes": 372
     },
     "gerbers/cipinkoklingacik-PTH-drl_map.pdf": {
-      "sha256": "b6ab8904d3eab6045b4e0c2cb54d8b4e0807b8a17e5ceadc8954bc0a67018a3f",
-      "bytes": 19950
+      "sha256": "ca8e8da34e99977b0244b3b79d75cdd824b9efb4b3d1d031c3ebf14342688a95",
+      "bytes": 19706
     },
     "gerbers/cipinkoklingacik-PTH.drl": {
-      "sha256": "d0246d04d2eeba17a761b9817dfce49a1b764cf24403563525071cfbf964232a",
-      "bytes": 3111
+      "sha256": "3dc0c07b9e14b3889ce07b700eca09b02ffd637483478fc43739583727b6a451",
+      "bytes": 3137
     },
     "gerbers/cipinkoklingacik-job.gbrjob": {
-      "sha256": "9e14af03a135e37857d94b1fb21f27054ea0321aa221b0c50d6f3c24e00f84cd",
+      "sha256": "ccedae39649ac37a2173f699329b5ee93647af509f613628be76371dfac49ef1",
       "bytes": 2501
     },
     "stencil/cipinkoklingacik-F_Paste.gtp": {
-      "sha256": "49a9d54805ad12b48d5d234efc61851cc8f43a4fdea3ad077de004adca0a9d13",
+      "sha256": "d9fb8f6a7db71d03a24f43e52959e76b66cdeefc35a2bcf20bcc724bf2936392",
       "bytes": 8007
     },
     "stencil/cipinkoklingacik-job.gbrjob": {
-      "sha256": "7ce5db18cf017b2606f5b30cbcfcce5b28da32b1dfc6875355a5368339357481",
+      "sha256": "b0d15e93fcc6031b6b1bbebf283d0b7a4efc9a17498f9172d756502425b38f10",
       "bytes": 1723
     }
   }

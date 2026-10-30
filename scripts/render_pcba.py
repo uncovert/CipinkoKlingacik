@@ -124,13 +124,13 @@ def main():
                         "--prepare", str(directory)], cwd=ROOT, check=True)
         report = json.loads((directory / "preparation.json").read_text())
         cases = (
-            ("assembled", "isometric", ["--rotate", "325,0,25"], "ČipinkoKlingáčik C3 — assembled baseline",
+            ("assembled", "isometric", ["--rotate", "325,0,25"], "ČipinkoKlingáčik C4 — assembled baseline",
              "100 × 85 mm carrier • socketed Pico-form-factor proxy • all baseline hand-fit parts shown"),
-            ("assembled", "top", ["--side", "top"], "ČipinkoKlingáčik C3 — top view",
+            ("assembled", "top", ["--side", "top"], "ČipinkoKlingáčik C4 — top view",
              "68 SMT parts + 7 hand-fit references • nine DNP options left empty • ARM open"),
-            ("assembled", "bottom", ["--side", "bottom"], "ČipinkoKlingáčik C3 — underside",
+            ("assembled", "bottom", ["--side", "bottom"], "ČipinkoKlingáčik C4 — underside",
              "Viewed from below (mirrored versus top) • through-hole tails shown • no bottom-side SMT"),
-            ("module-removed", "module-removed", ["--rotate", "325,0,25"], "ČipinkoKlingáčik C3 — module removed",
+            ("module-removed", "module-removed", ["--rotate", "325,0,25"], "ČipinkoKlingáčik C4 — module removed",
              "Service view: two generic 1×20 sockets remain fitted • module unplugged, not a different BOM"),
         )
         for board_name, name, view, title, subtitle in cases:
@@ -143,7 +143,7 @@ def main():
                                 *view], cwd=ROOT, stdout=stream, stderr=subprocess.STDOUT, check=True)
             footer = ("Generic component models • Pico 2 internals not exact • socket/header mating height illustrative"
                       if name != "bottom" else "Bare pads for unpopulated options are intentional • mounting screws/standoffs not shown")
-            output = OUT / ("cipinkoklingacik-C3-" + name + ".png")
+            output = OUT / ("cipinkoklingacik-C4-" + name + ".png")
             caption(raw, output, title, subtitle, footer)
             print("Rendered", output.relative_to(ROOT))
         report["renderer"] = "KiCad 10 pcb render, high-quality raytrace; Pillow captions"
@@ -151,13 +151,13 @@ def main():
     # A convenient overview; full-resolution views remain separate.
     overview = Image.new("RGB", (2400, 2190), "#eef2f6")
     for index, name in enumerate(("isometric", "top", "module-removed", "bottom")):
-        image = Image.open(OUT / ("cipinkoklingacik-C3-" + name + ".png"))
+        image = Image.open(OUT / ("cipinkoklingacik-C4-" + name + ".png"))
         image.thumbnail((1200, 1095))
         overview.paste(image, ((index % 2) * 1200, (index // 2) * 1095))
-    overview.save(OUT / "cipinkoklingacik-C3-overview.png")
-    pages = [Image.open(OUT / ("cipinkoklingacik-C3-" + name + ".png")).convert("RGB")
+    overview.save(OUT / "cipinkoklingacik-C4-overview.png")
+    pages = [Image.open(OUT / ("cipinkoklingacik-C4-" + name + ".png")).convert("RGB")
              for name in ("isometric", "top", "module-removed", "bottom")]
-    pages[0].save(OUT / "cipinkoklingacik-C3-assembly-views.pdf", save_all=True, append_images=pages[1:], resolution=220)
+    pages[0].save(OUT / "cipinkoklingacik-C4-assembly-views.pdf", save_all=True, append_images=pages[1:], resolution=220)
     report["artifacts"] = {p.name: {"sha256": sha(p), "bytes": p.stat().st_size}
                            for p in sorted(OUT.iterdir()) if p.suffix in (".png", ".pdf")}
     assert source_hash == sha(HW / "cipinkoklingacik.kicad_pcb") == report["source_board_sha256"]

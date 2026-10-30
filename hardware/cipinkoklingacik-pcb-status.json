@@ -1,14 +1,22 @@
 {
-  "revision": "C3",
+  "revision": "C4",
   "fabrication_release": false,
   "design_stage": "engineering-prototype candidate",
   "routing_complete": true,
   "geometry_violations": 0,
   "unconnected_items": 0,
   "schematic_parity_issues": 0,
-  "board_sha256": "57e30dfc570bdc0e43d36096923e3169187b0db4840fec9d70367bdbd46c96a8",
-  "schematic_sha256": "9dee4fb6eecf24aaa014c17a3a561823b7744e7de247a1c9638019c7bc7dacff",
+  "board_sha256": "e9bb56ae7312ffaf65c7c460f86121ce61bdbebf510c45c1fd2329b8582d4720",
+  "schematic_sha256": "3416fbe4736aeab581e09263737e0f4a109dfcc4d2e11a8b6b3270fae1199a0f",
   "project_sha256": "ec8ad623e6599c5c1f016df9f6e8a333e245cb6c90a9bac091475ee1c37d2308",
-  "drc_sha256": "85cb2bd890c0cad8a7266dd7da868758207a57f3eb8d19a782b268ddd15a9470",
-  "hardware_qualification": "NOT PERFORMED"
+  "drc_sha256": "d83d47dc2e795f7e5308048b3cf901b85ce2434680982562488b9b376369c294",
+  "erc_sha256": "77a5e1475c88553d1f6b658590e6d3a9cc2428bd2e2380e0de396c41bcfb96d4",
+  "hardware_qualification": "NOT PERFORMED",
+  "review_artifacts_sha256": {
+    "cipinkoklingacik-pcb-top.svg": "01dc6aa385d8ff8c7eedb0f88899a36d5f167734497be462f7117014468e2311",
+    "cipinkoklingacik-pcb-top.png": "323db7008a4dabfe0a9f216a636eca12ff0114f7d086bbd1614b991f19100aa7",
+    "cipinkoklingacik-pcb-bottom.svg": "f1f320d4273c90c5315249cbe956fb46d51c84b4fbaa8b306618edc3ee8d314d",
+    "cipinkoklingacik-pcb-bottom.png": "7814b9aaea4246d04a09eb6f307ab39f5a2ae5abd76e1b9b2114b4c6986ac2f3",
+    "cipinkoklingacik-pcb-review.pdf": "551197c08d2e91237c75655e52a81ffcebb8e2a7af2956acf8bbcfe2b7db72aa"
+  }
 }
